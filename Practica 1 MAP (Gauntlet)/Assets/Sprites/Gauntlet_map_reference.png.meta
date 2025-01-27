@@ -1,0 +1,1654 @@
+fileFormatVersion: 2
+guid: c7e8143ff41b0e847a3ba26d94765eb1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 15
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3423
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92f909ec5e036342b1139b29fd58fcb
+      internalID: -738501244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_1
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 3423
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dcf1e9f61999b94bad6fcc268dfa6d1
+      internalID: 64154527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_2
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 3423
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18aad91a965d5b478732363dd1b7cf4
+      internalID: 1811619091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_3
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 3423
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f526995a72ba6c647b1919b3934fff4d
+      internalID: -1205468018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_4
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 3423
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c1f683b43976649a2fa0ee4780a891
+      internalID: -362221877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_5
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 3423
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7246118719aeab94bba20bca767d81b8
+      internalID: -1252663454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_6
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 3423
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4481aa91ef00cd54cb841a1d02b60dad
+      internalID: 1803787910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_7
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 3423
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f531c61df2fe9f4497f456139d4b25d
+      internalID: 2146270114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_8
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 3423
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60eb13c6dbde304d94dcd7ce49ebb1e
+      internalID: -196170794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_9
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 3423
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563f51ebc8125f240aa931a33adf7c7f
+      internalID: -558993802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2868
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b060e2f0a26e0884594917c2984a3ae8
+      internalID: -1923229459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_11
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 2868
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd354be1cf135240b76257b5b3a25c7
+      internalID: 990415650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_12
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 2868
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08fa1ac9c71f414ab8707d7c44e76ea
+      internalID: -212473762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_13
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 2868
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9650aef457a5bd849bb86d2cf272bc1b
+      internalID: -620237718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_14
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 2868
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a740c32658a04e848afdbab6e334b3d7
+      internalID: 1208654265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_15
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 2868
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb60b809b00f7d448fa7ff88c29b22f
+      internalID: 268264254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_16
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 2868
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b70542b81349964498bebc099b412fa
+      internalID: 2127028136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_17
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 2868
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f8a3706763e144787decc9100158c3
+      internalID: 1479245813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_18
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 2868
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33ed0bdbfba724429a9b5e6462ea780
+      internalID: 951310230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_19
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 2868
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062be71868976ab41acdb88fe706cb13
+      internalID: -2022572355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2313
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96aa797c39f18494980cb0dbee81b43a
+      internalID: -1027325643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_21
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 2313
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35103cc5517ea8b46b0986b84020c9f3
+      internalID: -430555112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_22
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 2313
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e613fd45200474a8af6997b5b2a2d6
+      internalID: -1572006877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_23
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 2313
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8897c6261613a424aaa5fa665f6b8ab4
+      internalID: 1018726182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_24
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 2313
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260bc19e1f30b5c4db7a84f740a5cc78
+      internalID: 288314382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_25
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 2313
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f751cc33d52e14c972235678bb3770
+      internalID: -741756056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_26
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 2313
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79de269c2249c649a5329ae3f2efc05
+      internalID: -14520267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_27
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 2313
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54992146cb8a07446a71e649ddc4e2e8
+      internalID: 1608034030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_28
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 2313
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1d910eebe79da43afa5f302714d6f8
+      internalID: 1379522480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_29
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 2313
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d12d885d7f33545b4ba691161c4934
+      internalID: 1960287825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1758
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6557f7e077208f4eb404d7409515692
+      internalID: -1344949206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_31
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1758
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e19f347edf8ba749bb448cae42f6f71
+      internalID: -1663112808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_32
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1758
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eaa0ae161f89b840b2c57fbaf9cd0b3
+      internalID: 690556326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_33
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 1758
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0ef8faccb721e40821075feaf14f9c
+      internalID: 1324713865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_34
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 1758
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7401fd0808a73d24ca49e072e82ba5ae
+      internalID: 649468505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_35
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 1758
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739a65fdcca39e54abcd4cbfe4513097
+      internalID: -1873813341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_36
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 1758
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9b3979c321a1e4096fcc010fd49b53
+      internalID: -180457364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_37
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 1758
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665ec780e20ce564899ec7558461ea51
+      internalID: -248763408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_38
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 1758
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b2b0a2497c773489354179084a2714
+      internalID: 775231590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_39
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 1758
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd91cb5ad851a444cb3c15115fa85276
+      internalID: 1875576744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1203
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88eb1e632c658546a6b98d1018c0a4e
+      internalID: 557439810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_41
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1203
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5718efaf32022b44fbbc5479d79cfd42
+      internalID: 835631212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_42
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1203
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c708b239a87fe2c41bdad0ecf83b3610
+      internalID: 598043836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_43
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 1203
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f58e350efa5e974bae92e33f768d9f0
+      internalID: 2061247686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_44
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 1203
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d07bb5842489194c8e30b20fe94dbd3
+      internalID: 669831837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_45
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 1203
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18b72d3a661415419dc4744fab33c5f
+      internalID: -1571462490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_46
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 1203
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58aeaf92918e3e049a42b547f6d22ed7
+      internalID: -448842382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_47
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 1203
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011ff18c29dfe7a4088891968bdefa51
+      internalID: 1877536170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_48
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 1203
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2da8288be76a0b48b453907a95d8a6c
+      internalID: -721037257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_49
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 1203
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17550ebc734d104f82b97c896e3a25e
+      internalID: -1264877887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 648
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2502281774faa8f4c8a6d3b3fd5b2ad8
+      internalID: -871296866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_51
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 648
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6fbb94b3bcc0e40aa3567a1db01216
+      internalID: 1132518975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_52
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 648
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e10e713d5edc5b43963ef40116ada22
+      internalID: -432547189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_53
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 648
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1f2afaba12e714db163ed19027a14a
+      internalID: 265138905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_54
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 648
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769e68f969b794e42852b87979aa2d59
+      internalID: -342124584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_55
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 648
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a6918494e543c48a354fefe4ba881f
+      internalID: -666105804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_56
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 648
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e533bebf5cdf5043ad2bdfb863ba328
+      internalID: 993425336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_57
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 648
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591f67c44483d5143a9e89bc45c552cd
+      internalID: 516301470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_58
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 648
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2268ec9abdc0ea4d923efaeceb583d8
+      internalID: -2135298448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_59
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 648
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779ff834bca7d314ea0911664f094003
+      internalID: -255428638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 93
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc78f6687bedec9449e534988083477d
+      internalID: -2082291657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_61
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 93
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7614e49996ced4c9b0dcca409e7773
+      internalID: -1538432872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_62
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 93
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df507fcbd407a44481aafcb8f1ec1ee
+      internalID: 2067629536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_63
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 93
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56730faa7adf4542942178c1371108a
+      internalID: 355560099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_64
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 93
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90dcdcdcfc0ab4458fdf04a93839591
+      internalID: -1957676701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_65
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 93
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f973c97630c6947a1d02bd8d29f3be
+      internalID: 1607126382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_66
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 93
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cbd6e4c2e9e030409b0af95bd139314
+      internalID: 718031853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_67
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 93
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447041b1956233f449737b997d93b9b4
+      internalID: 1327022574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_68
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 93
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2e758b164227943b7b6b07a690ca19
+      internalID: -2117761863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gauntlet_map_reference_69
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 93
+        width: 550
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7388184113a87ae43aa00ed7366b8a97
+      internalID: 1268632766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Gauntlet_map_reference_0: -738501244
+      Gauntlet_map_reference_1: 64154527
+      Gauntlet_map_reference_10: -1923229459
+      Gauntlet_map_reference_11: 990415650
+      Gauntlet_map_reference_12: -212473762
+      Gauntlet_map_reference_13: -620237718
+      Gauntlet_map_reference_14: 1208654265
+      Gauntlet_map_reference_15: 268264254
+      Gauntlet_map_reference_16: 2127028136
+      Gauntlet_map_reference_17: 1479245813
+      Gauntlet_map_reference_18: 951310230
+      Gauntlet_map_reference_19: -2022572355
+      Gauntlet_map_reference_2: 1811619091
+      Gauntlet_map_reference_20: -1027325643
+      Gauntlet_map_reference_21: -430555112
+      Gauntlet_map_reference_22: -1572006877
+      Gauntlet_map_reference_23: 1018726182
+      Gauntlet_map_reference_24: 288314382
+      Gauntlet_map_reference_25: -741756056
+      Gauntlet_map_reference_26: -14520267
+      Gauntlet_map_reference_27: 1608034030
+      Gauntlet_map_reference_28: 1379522480
+      Gauntlet_map_reference_29: 1960287825
+      Gauntlet_map_reference_3: -1205468018
+      Gauntlet_map_reference_30: -1344949206
+      Gauntlet_map_reference_31: -1663112808
+      Gauntlet_map_reference_32: 690556326
+      Gauntlet_map_reference_33: 1324713865
+      Gauntlet_map_reference_34: 649468505
+      Gauntlet_map_reference_35: -1873813341
+      Gauntlet_map_reference_36: -180457364
+      Gauntlet_map_reference_37: -248763408
+      Gauntlet_map_reference_38: 775231590
+      Gauntlet_map_reference_39: 1875576744
+      Gauntlet_map_reference_4: -362221877
+      Gauntlet_map_reference_40: 557439810
+      Gauntlet_map_reference_41: 835631212
+      Gauntlet_map_reference_42: 598043836
+      Gauntlet_map_reference_43: 2061247686
+      Gauntlet_map_reference_44: 669831837
+      Gauntlet_map_reference_45: -1571462490
+      Gauntlet_map_reference_46: -448842382
+      Gauntlet_map_reference_47: 1877536170
+      Gauntlet_map_reference_48: -721037257
+      Gauntlet_map_reference_49: -1264877887
+      Gauntlet_map_reference_5: -1252663454
+      Gauntlet_map_reference_50: -871296866
+      Gauntlet_map_reference_51: 1132518975
+      Gauntlet_map_reference_52: -432547189
+      Gauntlet_map_reference_53: 265138905
+      Gauntlet_map_reference_54: -342124584
+      Gauntlet_map_reference_55: -666105804
+      Gauntlet_map_reference_56: 993425336
+      Gauntlet_map_reference_57: 516301470
+      Gauntlet_map_reference_58: -2135298448
+      Gauntlet_map_reference_59: -255428638
+      Gauntlet_map_reference_6: 1803787910
+      Gauntlet_map_reference_60: -2082291657
+      Gauntlet_map_reference_61: -1538432872
+      Gauntlet_map_reference_62: 2067629536
+      Gauntlet_map_reference_63: 355560099
+      Gauntlet_map_reference_64: -1957676701
+      Gauntlet_map_reference_65: 1607126382
+      Gauntlet_map_reference_66: 718031853
+      Gauntlet_map_reference_67: 1327022574
+      Gauntlet_map_reference_68: -2117761863
+      Gauntlet_map_reference_69: 1268632766
+      Gauntlet_map_reference_7: 2146270114
+      Gauntlet_map_reference_8: -196170794
+      Gauntlet_map_reference_9: -558993802
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
