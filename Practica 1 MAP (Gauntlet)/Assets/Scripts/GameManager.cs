@@ -6,13 +6,28 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] private GameObject player;
     private float second = 0f; //para contar el tiempo y quitar 1 vida por segundo
-    
-    //aquí iría el singleton
+    private int score;
+    public static GameManager instance;
+    public static GameManager Instance { get { return instance; } }
+    //singleton
+    private void Awake()
+    {
+        if (Instance != null && Instance != this) //patrón singleton
+        {
+            Destroy(this);
+        }
+        else
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+    }
+
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        score = 0;
     }
 
     void StartGame()
@@ -24,6 +39,12 @@ public class GameManager : MonoBehaviour
     void EnemyDamage() 
     {
         player.GetComponent<Health>().Harm(7);
+    }
+
+    public void TreasureCollected()
+    {
+        score += 100;
+        Debug.Log("score +100");
     }
 
     // Update is called once per frame
