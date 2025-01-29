@@ -33,6 +33,7 @@ public class PauseMenuManager : MonoBehaviour
     public void OpenReset()
     {
         SceneManager.LoadScene(1);
+        Time.timeScale = 1;
     }
     
     public void OpenResume()
