@@ -10,6 +10,7 @@ public class Trap : MonoBehaviour
         if (colision.gameObject.GetComponent<PlayerMovement>() != null) //comprueba si ha colisionado con el jugador
         {
             Destroy(walls);
+            Destroy(gameObject);
         }
     }
 }
