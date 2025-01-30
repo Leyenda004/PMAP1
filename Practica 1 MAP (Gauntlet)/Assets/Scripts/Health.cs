@@ -19,6 +19,13 @@ public class Health : MonoBehaviour
         Debug.Log("Vidas restantes: " +  health);
     }
 
+    public void Heal(int healthadded)
+    {
+        health += healthadded;
+        Debug.Log("Vida curada: " + healthadded);
+        Debug.Log("Vidas restantes: " + health);
+    }
+
     // Update is called once per frame
     void Update()
     {

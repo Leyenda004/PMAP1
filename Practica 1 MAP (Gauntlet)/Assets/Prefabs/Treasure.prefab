@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5930212227338332368}
   - component: {fileID: 5049599633725488906}
   - component: {fileID: 6529790956445590188}
+  - component: {fileID: -9069066469765996316}
   m_Layer: 0
   m_Name: Treasure
   m_TagString: Untagged
@@ -134,7 +135,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.53333336}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 1.0666667, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -159,3 +160,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0398800eb37548d47aa66fa1aab27e40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &-9069066469765996316
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5420508319831623712}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 066e104335a0dbd48829c85686e2fe72, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
