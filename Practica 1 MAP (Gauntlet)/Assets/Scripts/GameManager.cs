@@ -14,7 +14,8 @@ public class GameManager : MonoBehaviour
     {
         if (Instance != null && Instance != this) //patrón singleton
         {
-            Destroy(this);
+            Destroy(gameObject);
+            return;
         }
         else
         {
