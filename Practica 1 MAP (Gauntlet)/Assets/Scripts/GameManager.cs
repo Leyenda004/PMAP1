@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     private float second = 0f; //para contar el tiempo y quitar 1 vida por segundo
     private int score;
     public static GameManager instance;
+    public bool havingKey; 
     public static GameManager Instance { get { return instance; } }
     //singleton
     private void Awake()
@@ -61,6 +62,10 @@ public class GameManager : MonoBehaviour
        
         player.GetComponent<Health>().Heal(50);
 
+    }
+    public void SetKeyBool(bool value) // Activa o desactiva la boleana que indica si el jugador porta una llave
+    {
+        havingKey = value;
     }
 
     // Update is called once per frame
