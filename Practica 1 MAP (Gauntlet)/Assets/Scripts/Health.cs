@@ -1,11 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Runtime.InteropServices.WindowsRuntime;
 using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    private int health; //pierde 7 de vida cuando le pega un enemigo y cuando evita un enemigo que ha aparecido en pantalla, así que si no se pega con los enemigos también pierde vida
-    
+    [SerializeField] private int health; //pierde 7 de vida cuando le pega un enemigo y cuando evita un enemigo que ha aparecido en pantalla, asï¿½ que si no se pega con los enemigos tambiï¿½n pierde vid
+
+    public int getHealth() { return health; }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -15,8 +19,8 @@ public class Health : MonoBehaviour
     public void Harm(int damage)
     {
         health -= damage;
-        Debug.Log("Daño producido: " + damage);
-        Debug.Log("Vidas restantes: " +  health);
+        Debug.Log("Daï¿½o producido: " + damage);
+        // Debug.Log("Vidas restantes: " +  health);
     }
 
     public void Heal(int healthadded)
