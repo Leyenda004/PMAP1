@@ -51,8 +51,15 @@ public class GameManager : MonoBehaviour
     //suma 100 de vida si player colisiona con la comida
     public void FoodCollected()
     {
-        Debug.Log("health +100");
+       
         player.GetComponent<Health>().Heal(100);
+
+    }
+
+    public void PotionCollected()
+    {
+       
+        player.GetComponent<Health>().Heal(50);
 
     }
 

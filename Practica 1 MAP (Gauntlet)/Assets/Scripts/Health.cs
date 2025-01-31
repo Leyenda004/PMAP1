@@ -26,9 +26,4 @@ public class Health : MonoBehaviour
         Debug.Log("Vidas restantes: " + health);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
