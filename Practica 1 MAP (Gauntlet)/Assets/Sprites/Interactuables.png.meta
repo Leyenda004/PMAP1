@@ -97,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: NES_-_Gauntlet_II_-_Items-removebg-preview_0
+      name: Treasure1
       rect:
         serializedVersion: 2
         x: 29
@@ -118,7 +118,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES_-_Gauntlet_II_-_Items-removebg-preview_1
+      name: Treasure2
       rect:
         serializedVersion: 2
         x: 46
@@ -139,7 +139,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES_-_Gauntlet_II_-_Items-removebg-preview_2
+      name: Treasure3
       rect:
         serializedVersion: 2
         x: 63
@@ -180,6 +180,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Potion
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 35
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03bf48bb33348e24490a1e95184b1533
+      internalID: -1954016298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Food
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe711dc747226c42b8347335489264b
+      internalID: -2110077465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -191,10 +233,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Food: -2110077465
       Key: 1783564628
-      NES_-_Gauntlet_II_-_Items-removebg-preview_0: -163271744
-      NES_-_Gauntlet_II_-_Items-removebg-preview_1: -415992191
-      NES_-_Gauntlet_II_-_Items-removebg-preview_2: 1864421333
+      Potion: -1954016298
+      Treasure1: -163271744
+      Treasure2: -415992191
+      Treasure3: 1864421333
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

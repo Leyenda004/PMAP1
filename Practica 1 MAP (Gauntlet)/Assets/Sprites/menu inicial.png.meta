@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -121,9 +121,9 @@ TextureImporter:
       name: menu inicial_1
       rect:
         serializedVersion: 2
-        x: 256
+        x: 258
         y: 0
-        width: 257
+        width: 254
         height: 240
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -142,9 +142,9 @@ TextureImporter:
       name: menu inicial_2
       rect:
         serializedVersion: 2
-        x: 514
+        x: 515
         y: 0
-        width: 256
+        width: 255
         height: 240
       alignment: 0
       pivot: {x: 0.5, y: 0.5}

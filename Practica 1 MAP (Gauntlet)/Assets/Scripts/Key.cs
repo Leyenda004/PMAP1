@@ -5,7 +5,7 @@ using UnityEngine;
 public class Key : MonoBehaviour
 {
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision) // Trigger evita que el jugador se choque con el interactuable
     {
         if (collision.gameObject.GetComponent<PlayerMovement>() != null)
         {
