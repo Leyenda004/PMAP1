@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] private GameObject player;
     private float second = 0f; //para contar el tiempo y quitar 1 vida por segundo
     private int score;
-    public static GameManager instance;
+    public bool havingKey; 
+    private static GameManager instance;
     public static GameManager Instance { get { return instance; } }
+
+    [SerializeField] private GameObject player;
+    public GameObject Player { get { return player; } }
+
     //singleton
     private void Awake()
     {
-        if (Instance != null && Instance != this) //patrón singleton
+        if (Instance != null && Instance != this) //patrï¿½n singleton
         {
             Destroy(gameObject);
             return;
@@ -61,6 +65,10 @@ public class GameManager : MonoBehaviour
        
         player.GetComponent<Health>().Heal(50);
 
+    }
+    public void SetKeyBool(bool value) // Activa o desactiva la boleana que indica si el jugador porta una llave
+    {
+        havingKey = value;
     }
 
     // Update is called once per frame
