@@ -8,22 +8,22 @@ using UnityEngine.SocialPlatforms.Impl;
 public class NewBehaviourScript : MonoBehaviour
 {
     [SerializeField]
-    Text Health;
+    private Health playerhealth; 
     [SerializeField]
-    Text Score;
+    Text Healthb;
     [SerializeField]
-    Text Character; 
+    Text Scoreb;
     // Start is called before the first frame update
-
-    public void Persona (string character)
+    void Start()
     {
-        Character.text = character;
+      playerhealth = FindObjectOfType<Health>();   
     }
+
 
     // Update is called once per frame
     void Update()
     {
-        //Score.text = GameManager.Instance.score.ToString();
-        
+        Healthb.text = playerhealth.getHealth().ToString();
+        Scoreb.text = GameManager.Instance.score.ToString();
     }
 }

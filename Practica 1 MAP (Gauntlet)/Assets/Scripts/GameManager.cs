@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     private float second = 0f; //para contar el tiempo y quitar 1 vida por segundo
-    private int score;
+    public int score;
     public bool havingKey; 
     private static GameManager instance;
     public static GameManager Instance { get { return instance; } }
