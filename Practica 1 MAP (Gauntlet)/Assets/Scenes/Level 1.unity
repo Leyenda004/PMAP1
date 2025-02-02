@@ -3105,7 +3105,7 @@ GameObject:
   - component: {fileID: 87826309}
   - component: {fileID: 87826311}
   - component: {fileID: 87826310}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Player_sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4976,7 +4976,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -5067,7 +5067,7 @@ GameObject:
   m_Component:
   - component: {fileID: 660888579}
   - component: {fileID: 660888580}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5739,7 +5739,7 @@ Transform:
   m_GameObject: {fileID: 821095922}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8747,7 +8747,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 5
-      m_TileSpriteIndex: 5
+      m_TileSpriteIndex: 7
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -18432,12 +18432,12 @@ Tilemap:
     m_Data: {fileID: 886668019, guid: 27306e61cb7df3d4a9ed0b4f5aa37cff, type: 3}
   - m_RefCount: 1082
     m_Data: {fileID: -1457584430, guid: 27306e61cb7df3d4a9ed0b4f5aa37cff, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -684647370, guid: 27306e61cb7df3d4a9ed0b4f5aa37cff, type: 3}
-  - m_RefCount: 6
-    m_Data: {fileID: 1740934036, guid: 27306e61cb7df3d4a9ed0b4f5aa37cff, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
+  - m_RefCount: 6
+    m_Data: {fileID: 1740934036, guid: 27306e61cb7df3d4a9ed0b4f5aa37cff, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -684647370, guid: 27306e61cb7df3d4a9ed0b4f5aa37cff, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 1260
     m_Data:
@@ -19009,7 +19009,7 @@ GameObject:
   - component: {fileID: 1018625663}
   - component: {fileID: 1018625664}
   - component: {fileID: 1018625665}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -19359,13 +19359,13 @@ Transform:
   - {fileID: 1104075674}
   - {fileID: 65213629}
   - {fileID: 261665319}
-  - {fileID: 821095923}
   - {fileID: 887528017}
   - {fileID: 1503874277}
   - {fileID: 970317807}
   - {fileID: 719594320}
   - {fileID: 1584082234}
   - {fileID: 2038802581}
+  - {fileID: 821095923}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1104075673
@@ -21469,8 +21469,8 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 14049632}
   - {fileID: 1018625660}
+  - {fileID: 14049632}
   - {fileID: 1077706757}
   - {fileID: 1453270531}
   - {fileID: 1791982332}

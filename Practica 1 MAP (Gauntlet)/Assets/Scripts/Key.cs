@@ -5,11 +5,12 @@ using UnityEngine;
 public class Key : MonoBehaviour
 {
 
-    private void OnTriggerEnter2D(Collider2D collision) // Trigger evita que el jugador se choque con el interactuable
+
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.GetComponent<PlayerMovement>() != null)
         {
-            GameManager.Instance.SetKeyBool(true); 
+            GameManager.Instance.SetKeyBool(true);
             Destroy(gameObject);
 
         }

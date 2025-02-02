@@ -6,7 +6,8 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    [SerializeField] private int health; //pierde 7 de vida cuando le pega un enemigo y cuando evita un enemigo que ha aparecido en pantalla, as� que si no se pega con los enemigos tambi�n pierde vid
+    [SerializeField] private int health; //pierde 7 de vida cuando le pega un enemigo y cuando evita un enemigo que ha aparecido en pantalla,
+                                         //as� que si no se pega con los enemigos tambi�n pierde vid
 
     public int getHealth() { return health; }
 
