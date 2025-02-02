@@ -23,7 +23,7 @@ public class NewBehaviourScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Score.text = GameManager.Instance.score.ToString();
+        //Score.text = GameManager.Instance.score.ToString();
         
     }
 }
