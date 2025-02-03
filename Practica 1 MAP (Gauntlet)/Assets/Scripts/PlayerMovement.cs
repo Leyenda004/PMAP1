@@ -23,6 +23,7 @@ public class PlayerMovement : MonoBehaviour
         dir = lastDir = Vector2.zero;
         //animator = animatedPlayer.GetComponent<Animator>();
         animator = GetComponentInChildren<Animator>();
+        GameManager.Instance.StartGame(gameObject);
     }
     void Update()
     {

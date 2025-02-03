@@ -35,9 +35,10 @@ public class GameManager : MonoBehaviour
         score = 0;
     }
 
-    void StartGame()
+    public void StartGame(GameObject jugador)
     {
         second = 0f;
+        player = jugador;
     }
 
     //Quita 7 de vida si el player colisiona con el enemigo o avanza sin haber matado a un enemigo. Para comprobar esto necesitamos los enemigos
