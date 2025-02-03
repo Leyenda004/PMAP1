@@ -27,6 +27,7 @@ public class PauseMenuManager : MonoBehaviour
     }
     public void OpenExit()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene(0);
     }
 
