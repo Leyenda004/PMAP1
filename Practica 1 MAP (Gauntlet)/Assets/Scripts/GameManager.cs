@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public int score;
     public bool havingKey; 
     private static GameManager instance;
+
     public static GameManager Instance { get { return instance; } }
 
     [SerializeField] public GameObject player;
@@ -70,6 +71,12 @@ public class GameManager : MonoBehaviour
     public void SetKeyBool(bool value) // Activa o desactiva la boleana que indica si el jugador porta una llave
     {
         havingKey = value;
+    }
+
+
+    public void CallTutorial(string message) //tutorial
+    {
+        
     }
 
     // Update is called once per frame
