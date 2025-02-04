@@ -10,10 +10,13 @@ public class NewBehaviourScript : MonoBehaviour
     [SerializeField] private Text Scoreb;
     [SerializeField] private Text Tutorial;
 
+    private int score;
+
     // Start is called before the first frame update
     void Start()
     {
-      playerhealth = FindObjectOfType<Health>();   
+      playerhealth = FindObjectOfType<Health>();
+      score = GameManager.Instance.score;
     }
 
     public void ShowTutorial(string message)
