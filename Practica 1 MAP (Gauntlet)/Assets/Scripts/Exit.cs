@@ -16,6 +16,7 @@ public class Exit : MonoBehaviour
     {
         if (collision.gameObject.GetComponent<PlayerMovement>() != null)
         {
+            animator.SetTrigger("Exit");
             StartCoroutine(ExitDelay());
 
         }
@@ -24,7 +25,7 @@ public class Exit : MonoBehaviour
 
     private IEnumerator ExitDelay()
     {
-        animator.SetTrigger("Exit");
+        
         yield return new WaitForSeconds(1f);
         SceneManager.LoadScene("Menu");
 

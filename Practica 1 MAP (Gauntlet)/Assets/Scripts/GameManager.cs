@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     private static GameManager instance;
     public static GameManager Instance { get { return instance; } }
 
-    [SerializeField] private GameObject player;
+    [SerializeField] public GameObject player;
     public GameObject Player { get { return player; } }
 
     //singleton

@@ -23,7 +23,7 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         gameManager = GameManager.Instance;
-        player = gameManager.Player; //GameObject.FindWithTag("Player");
+        player = gameManager.player; //GameObject.FindWithTag("Player");
         rb = GetComponent<Rigidbody2D>();
     }
 
