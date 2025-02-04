@@ -11,7 +11,7 @@ public class Gun : MonoBehaviour
     Vector2 dir;
 
     [SerializeField] Bullet bulletPrefab;
-    [SerializeField] float fireRate = 0.5f;
+    [SerializeField] float fireRate = 0.15f;
     [SerializeField] float bulletSpeed = 15f;
     // Start is called before the first frame update
     void Start()
@@ -35,7 +35,8 @@ public class Gun : MonoBehaviour
         if (Time.time > nextFireTime)
         {
             Vector2 lastDir = parent.GetComponent<PlayerMovement>().getLastDir();
-            firePoint = (Vector2)parent.transform.position + lastDir;
+            Quaternion angulito = Quaternion.LookRotation(Vector3.forward, lastDir);
+            firePoint = (Vector2)parent.transform.position + lastDir/lastDir.magnitude;
 
 
             Bullet newBullet = Instantiate(bulletPrefab, firePoint, Quaternion.LookRotation(Vector3.forward, lastDir));
