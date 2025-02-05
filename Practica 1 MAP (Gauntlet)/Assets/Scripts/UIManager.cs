@@ -9,6 +9,7 @@ public class NewBehaviourScript : MonoBehaviour
     [SerializeField] private Text Healthb;
     [SerializeField] private Text Scoreb;
     [SerializeField] private Text Tutorial;
+    [SerializeField] private GameObject keyimage;
 
     private int score;
 
@@ -17,11 +18,21 @@ public class NewBehaviourScript : MonoBehaviour
     {
       playerhealth = FindObjectOfType<Health>();
       score = GameManager.Instance.score;
+        if (keyimage != null)
+        {
+            keyimage.SetActive(false); //interfaz desactivada
+        }
     }
 
     public void ShowTutorial(string message)
     {
         Tutorial.text = message;
+    }
+
+    public void OnKeyObtained()
+    {
+        keyimage.SetActive(true); //activa la pantalla de fin del juego
+
     }
 
     // Update is called once per frame
