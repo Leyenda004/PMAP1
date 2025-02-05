@@ -16,7 +16,7 @@ public class Key : MonoBehaviour
     {
         if (collision.gameObject.GetComponent<PlayerMovement>() != null)
         {
-            GameManager.Instance.SetKeyBool(true);           
+            GameManager.Instance.SetKeyBool(true); 
             Destroy(gameObject);
 
             if (firstKey) //tutorial llave

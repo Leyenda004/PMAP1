@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using TMPro.EditorUtilities;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -11,14 +10,10 @@ public class GameManager : MonoBehaviour
     private static GameManager instance;
     public int char_selection;
 
-    private NewBehaviourScript UiManager;
-
     public static GameManager Instance { get { return instance; } }
 
     [SerializeField] public GameObject player;
     public GameObject Player { get { return player; } }
-
-    
 
     //singleton
     private void Awake()
@@ -76,14 +71,8 @@ public class GameManager : MonoBehaviour
     }
     public void SetKeyBool(bool value) // Activa o desactiva la boleana que indica si el jugador porta una llave
     {
-        score += 100;   
         havingKey = value;
-        if (UiManager != null)
-        {
-            UiManager.GetComponent<NewBehaviourScript>().OnKeyObtained();
-        }
     }
-
 
 
     public void CallTutorial(string message) //tutorial
