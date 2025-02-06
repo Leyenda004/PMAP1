@@ -8,7 +8,6 @@ public class GameManager : MonoBehaviour
     public int score;
     public bool havingKey; 
     private static GameManager instance;
-    public int char_selection;
 
     public static GameManager Instance { get { return instance; } }
 
@@ -41,6 +40,17 @@ public class GameManager : MonoBehaviour
     {
         second = 0f;
         player = jugador;
+    }
+    public void CharSelection(string selection)
+    {
+        if (selection == "valkyrie")
+        {
+
+        }
+        else
+        {
+
+        }
     }
 
     //Quita 7 de vida si el player colisiona con el enemigo o avanza sin haber matado a un enemigo. Para comprobar esto necesitamos los enemigos
