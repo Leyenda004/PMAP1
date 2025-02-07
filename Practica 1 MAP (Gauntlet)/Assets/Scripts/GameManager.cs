@@ -8,11 +8,11 @@ public class GameManager : MonoBehaviour
     public int score;
     public bool havingKey; 
     private static GameManager instance;
+    private UIManager ui;
+    [SerializeField] public GameObject player;
 
     public static GameManager Instance { get { return instance; } }
 
-    [SerializeField] public GameObject player;
-    public GameObject Player { get { return player; } }
 
     //singleton
     private void Awake()
@@ -35,12 +35,12 @@ public class GameManager : MonoBehaviour
     {
         score = 0;
     }
-
-    public void StartGame(GameObject jugador)
+    public void StartGame(UIManager ui)
     {
+        this.ui = ui;
         second = 0f;
-        player = jugador;
     }
+    
     public void CharSelection(string selection)
     {
         if (selection == "valkyrie")
@@ -87,7 +87,8 @@ public class GameManager : MonoBehaviour
 
     public void CallTutorial(string message) //tutorial
     {
-        
+        ui.ShowTutorial(message);
+        Debug.Log("WENAAAAAAAS");
     }
 
     // Update is called once per frame

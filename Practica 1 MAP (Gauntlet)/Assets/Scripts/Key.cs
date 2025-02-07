@@ -22,6 +22,7 @@ public class Key : MonoBehaviour
             if (firstKey) //tutorial llave
             {
                 GameManager.Instance.CallTutorial("Save keys to open doors or treasures");
+                Debug.Log("Tengo una llaveeeeeeee");
             }
         }
     }

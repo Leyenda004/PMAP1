@@ -34,7 +34,7 @@ public class Enemy : MonoBehaviour
         {
             Vector2 newPos = Vector2.MoveTowards(rb.position, player.transform.position, 2 * /*speed*/Time.deltaTime);
             rb.MovePosition(newPos);
-            Debug.Log("following player: " + player.transform.position);
+            //Debug.Log("following player: " + player.transform.position);
         }
     }
 }

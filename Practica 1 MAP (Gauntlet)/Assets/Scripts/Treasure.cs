@@ -7,9 +7,10 @@ public class Treasure : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.GetComponent<PlayerMovement>() != null) 
+        if (collision.gameObject.GetComponent<PlayerMovement>() != null && GameManager.Instance.havingKey) 
         {
-            GameManager.Instance.TreasureCollected(); 
+            GameManager.Instance.TreasureCollected();
+            GameManager.Instance.SetKeyBool(false);
             Destroy(gameObject);
 
         }
