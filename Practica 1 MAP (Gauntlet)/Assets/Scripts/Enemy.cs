@@ -27,14 +27,14 @@ public class Enemy : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
+    //Update is called once per frame
     void FixedUpdate()
     {
         if (player != null)
         {
             Vector2 newPos = Vector2.MoveTowards(rb.position, player.transform.position, 2 * /*speed*/Time.deltaTime);
             rb.MovePosition(newPos);
-            Debug.Log("following player: " + player.transform.position);
+            //Debug.Log("following player: " + player.transform.position);
         }
     }
 }

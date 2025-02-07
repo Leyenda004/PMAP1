@@ -19,7 +19,7 @@ public class Health : MonoBehaviour
     public void Harm(int damage)
     {
         health -= damage;
-        Debug.Log("Da�o producido: " + damage);
+        //Debug.Log("Da�o producido: " + damage);
         // Debug.Log("Vidas restantes: " +  health);
     }
 
