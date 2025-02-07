@@ -6,7 +6,8 @@ public class GameManager : MonoBehaviour
 {
     private float second = 0f; //para contar el tiempo y quitar 1 vida por segundo
     public int score;
-    public bool havingKey; 
+    public bool havingKey;
+    private bool firstEnemy;
     private static GameManager instance;
     private UIManager ui;
     [SerializeField] public GameObject player;
@@ -33,11 +34,13 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        ui = FindObjectOfType<UIManager>();
         score = 0;
     }
     public void StartGame(UIManager ui)
     {
         this.ui = ui;
+        firstEnemy = true;
         second = 0f;
     }
     
@@ -53,10 +56,16 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    //Quita 7 de vida si el player colisiona con el enemigo o avanza sin haber matado a un enemigo. Para comprobar esto necesitamos los enemigos
-    void EnemyDamage() 
+    //Quita 7 de vida si el player colisiona con el enemigo
+    public void EnemyDamage() 
     {
         player.GetComponent<Health>().Harm(7);
+
+        if (firstEnemy)
+        {
+            CallTutorial("Shoot or avoid ghosts player loses 7 health");
+            firstEnemy = false;
+        }
     }
 
     public void TreasureCollected()
@@ -88,7 +97,6 @@ public class GameManager : MonoBehaviour
     public void CallTutorial(string message) //tutorial
     {
         ui.ShowTutorial(message);
-        Debug.Log("WENAAAAAAAS");
     }
 
     // Update is called once per frame

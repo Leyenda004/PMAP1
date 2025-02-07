@@ -25,7 +25,15 @@ public class UIManager : MonoBehaviour
     {
         screenTuto.SetActive(true);
         Tutorial.text = message;
-        Debug.Log("COÑO, FUNCIONA");
+        Time.timeScale = 0;
+        StartCoroutine(HideTutorial());
+    }
+
+    private IEnumerator HideTutorial()
+    {
+        yield return new WaitForSecondsRealtime(2f);
+        screenTuto.SetActive(false);
+        Time.timeScale = 1;
     }
 
     // Update is called once per frame
