@@ -3,17 +3,30 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.InteropServices.WindowsRuntime;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour
 {
     [SerializeField] private int health; //pierde 7 de vida cuando le pega un enemigo y cuando evita un enemigo que ha aparecido en pantalla, as� que si no se pega con los enemigos tambi�n pierde vid
-
+    GameManager gameManager;
     public int getHealth() { return health; }
 
     // Start is called before the first frame update
     void Start()
     {
-        health = 750;
+        gameManager = GameManager.Instance;
+        IniHealth();
+    }
+
+    void Update()
+    {
+        
+        if (health <= 0)
+        {
+            Time.timeScale = 1;
+            SceneManager.LoadScene(2);
+            
+        }
     }
 
     public void Harm(int damage)
@@ -21,6 +34,11 @@ public class Health : MonoBehaviour
         health -= damage;
         Debug.Log("Da�o producido: " + damage);
         // Debug.Log("Vidas restantes: " +  health);
+    }
+
+    public void IniHealth()
+    {
+        health = 750;
     }
 
     public void Heal(int healthadded)
