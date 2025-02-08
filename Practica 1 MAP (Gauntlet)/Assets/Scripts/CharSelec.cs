@@ -11,6 +11,7 @@ using UnityEngine.UI;
 public class CharSelec : MonoBehaviour
 {
     System.Random random = new System.Random(); // maldita ambigüedad que dolor de cabeza me ha dado
+    [SerializeField] private GameObject screen;
 
     void Start()
     {
@@ -19,12 +20,14 @@ public class CharSelec : MonoBehaviour
 
     public void ValkyrieSelection()
     {
+        screen.SetActive(false);
         SceneManager.LoadScene(1);
         GameManager.Instance.CharSelection("valkyrie");
 
     }
     public void  ElfSelection()
     {
+        screen.SetActive(false);
         SceneManager.LoadScene(1);
         GameManager.Instance.CharSelection("valkyrie");
 
