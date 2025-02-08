@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public int score;
     public bool havingKey; 
     private static GameManager instance;
+    public int char_selection;
 
     public static GameManager Instance { get { return instance; } }
 

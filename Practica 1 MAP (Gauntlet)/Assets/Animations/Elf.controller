@@ -115,7 +115,7 @@ BlendTree:
   m_Name: Blend Tree
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: e815252bec5b7cd4b82f37cb8e0c76e7, type: 2}
+    m_Motion: {fileID: 7400000, guid: 9615c11f617dfb54d9e8774e02dac12c, type: 2}
     m_Threshold: 0
     m_Position: {x: 0, y: 1}
     m_TimeScale: 1
@@ -123,7 +123,7 @@ BlendTree:
     m_DirectBlendParameter: Blend
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 6bcc802a55bc8a146845c9b2255168a8, type: 2}
+    m_Motion: {fileID: 7400000, guid: 100de582ebdea4340bc466b739ecc5a4, type: 2}
     m_Threshold: 0.33333334
     m_Position: {x: 0, y: -1}
     m_TimeScale: 1
@@ -131,7 +131,7 @@ BlendTree:
     m_DirectBlendParameter: Horizontal
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 571dcc989a3ed8e449b62fc4a21ef84a, type: 2}
+    m_Motion: {fileID: 7400000, guid: f446440e318050349a357bb1ee8c7dda, type: 2}
     m_Threshold: 0.6666667
     m_Position: {x: -1, y: 0}
     m_TimeScale: 1
@@ -139,7 +139,7 @@ BlendTree:
     m_DirectBlendParameter: Horizontal
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 601cb45f93372414dbd15cafe46840d4, type: 2}
+    m_Motion: {fileID: 7400000, guid: ffa7c88ee767f37468978f5d8c112b82, type: 2}
     m_Threshold: 1
     m_Position: {x: 1, y: 0}
     m_TimeScale: 1
@@ -162,7 +162,7 @@ BlendTree:
   m_Name: Blend Tree
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: cdcc4a189399eee4a9f20e411ae1ea1c, type: 2}
+    m_Motion: {fileID: 7400000, guid: 57098cc575f0db748ba4d5ff61a1a4f6, type: 2}
     m_Threshold: 0
     m_Position: {x: 0, y: 1}
     m_TimeScale: 1
@@ -170,7 +170,7 @@ BlendTree:
     m_DirectBlendParameter: Blend
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: e471ecd552fefa8488bdc7c324ee9198, type: 2}
+    m_Motion: {fileID: 7400000, guid: 48207d9288b4dc24e83907aa285c30d3, type: 2}
     m_Threshold: 0.33333334
     m_Position: {x: 0, y: -1}
     m_TimeScale: 1
@@ -178,7 +178,7 @@ BlendTree:
     m_DirectBlendParameter: Horizontal
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 3e25f114252598047a71fa157b317881, type: 2}
+    m_Motion: {fileID: 7400000, guid: 2ca6fbfbb362f1b4bb133f92480cb13e, type: 2}
     m_Threshold: 0.6666667
     m_Position: {x: -1, y: 0}
     m_TimeScale: 1
@@ -186,7 +186,7 @@ BlendTree:
     m_DirectBlendParameter: Horizontal
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: c682fa21ac73313438b059ca41bc7505, type: 2}
+    m_Motion: {fileID: 7400000, guid: 165ed4d11a8611b4cb944c98e511981b, type: 2}
     m_Threshold: 1
     m_Position: {x: 1, y: 0}
     m_TimeScale: 1
@@ -233,7 +233,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: OliAnimator
+  m_Name: Elf
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Horizontal
