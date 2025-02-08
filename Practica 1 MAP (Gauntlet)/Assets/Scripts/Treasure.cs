@@ -5,9 +5,9 @@ using UnityEngine;
 public class Treasure : MonoBehaviour
 {
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.GetComponent<PlayerMovement>() != null && GameManager.Instance.havingKey) 
+        if (collision.gameObject.GetComponent<PlayerMovement>() != null && GameManager.Instance.havingKey)
         {
             GameManager.Instance.TreasureCollected();
             GameManager.Instance.SetKeyBool(false);
@@ -15,4 +15,5 @@ public class Treasure : MonoBehaviour
 
         }
     }
+
 }
