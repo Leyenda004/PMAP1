@@ -2,17 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class GameManager : MonoBehaviour
 {
     private float second = 0f; //para contar el tiempo y quitar 1 vida por segundo
     public int score;
-    public bool havingKey; 
+    public bool havingKey;
+    private bool firstEnemy;
     private static GameManager instance;
+    private UIManager ui;
+    [SerializeField] public GameObject player;
 
     public static GameManager Instance { get { return instance; } }
 
-    [SerializeField] public GameObject player;
-    public GameObject Player { get { return player; } }
 
     //singleton
     private void Awake()
@@ -33,35 +35,48 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        ui = FindObjectOfType<UIManager>();
         score = 0;
+
     }
 
-    public void StartGame(GameObject jugador)
+    public void StartGame(UIManager ui)
     {
-        second = 0f;
-        player = jugador;
+        this.ui = ui;
+        firstEnemy = true;
+
+
     }
+    
     public void CharSelection(string selection)
     {
         if (selection == "valkyrie")
         {
-
+            score = 0;
+            player.GetComponent<Health>().IniHealth();
         }
         else
         {
-
+            score = 0;
+            player.GetComponent<Health>().IniHealth();
         }
     }
 
-    //Quita 7 de vida si el player colisiona con el enemigo o avanza sin haber matado a un enemigo. Para comprobar esto necesitamos los enemigos
-    void EnemyDamage() 
+    //Quita 7 de vida si el player colisiona con el enemigo
+    public void EnemyDamage() 
     {
         player.GetComponent<Health>().Harm(7);
+
+        if (firstEnemy)
+        {
+            CallTutorial("Shoot or avoid ghosts player loses 7 health");
+            firstEnemy = false;
+        }
     }
 
     public void TreasureCollected()
     {
-        score += 100;
+        score += 50;
         Debug.Log("score +100");
     }
 
@@ -81,13 +96,15 @@ public class GameManager : MonoBehaviour
     }
     public void SetKeyBool(bool value) // Activa o desactiva la boleana que indica si el jugador porta una llave
     {
+
+        score += 50;
         havingKey = value;
     }
 
 
     public void CallTutorial(string message) //tutorial
     {
-        
+        ui.ShowTutorial(message);
     }
 
     // Update is called once per frame
