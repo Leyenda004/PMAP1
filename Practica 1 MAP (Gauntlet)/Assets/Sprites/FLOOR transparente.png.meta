@@ -1,0 +1,4557 @@
+fileFormatVersion: 2
+guid: d0c76fd0948db3c4fbf774a6c30d90c0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 0
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FLOOR transparente_53
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 594
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d406d45c13a865349847d625a030bdb6
+      internalID: 428254647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_54
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 594
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f74281c7d88d8c498418de828af3fbb
+      internalID: 2102337416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_55
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 594
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d290b58a22fbbeb44a2677c735cd196a
+      internalID: -277487204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_56
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 594
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bba9bd670c7dd54b8f7ab8920b0d01e
+      internalID: 364271672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_57
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 594
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac986c529bbedc41a29f9490b606762
+      internalID: 1718215137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_58
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 594
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3826d51a9d3dc1e478b289f2ab8ecda8
+      internalID: -763274537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_59
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 594
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160f796162d5f0047a38c18ffec5828c
+      internalID: -805229785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_60
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 594
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3652964a628ad447bbbd64d4739e807
+      internalID: 1373099569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_65
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 560
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6c8420d54cdba49a3e154b8df1e148
+      internalID: -1049648728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_66
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 560
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8f09a9f0509c34db3adbb9ac74025b
+      internalID: 1102955143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_67
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 560
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0f039a136d83f4dbd638ada1f2c242
+      internalID: 70278535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_68
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 560
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565b02450aabf014fb6dde7d71940040
+      internalID: -27126115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_69
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 560
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a29a4f1ab5c4a46a1fff79106a594b
+      internalID: -1726970297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_70
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 560
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f595e89b9cf694e9c28b14a42a224f
+      internalID: -721252602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_71
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 560
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06991705acd44584a890a41d59616b0a
+      internalID: 2071754269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_72
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 560
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46a9dd3c68326e4e9d583f70104cf7d
+      internalID: -627334763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_77
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 526
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc861ead176fa8f4fb6dcb3c0a2a5dbb
+      internalID: -1810720418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_78
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 526
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8845c96b41f4cef49a2d9deacf8b0fec
+      internalID: -1198974627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_79
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 526
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c0b92b4970df849a410458605fb8ff
+      internalID: 967333002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_80
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 526
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6a7b5f32cb7044c96486462464ef42
+      internalID: 428518308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_81
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 526
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7482b1a2202257143b2c29db7936efd2
+      internalID: 964910441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_82
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 526
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e745ef7d8c547428c4165bbc7a0d06
+      internalID: 1562701657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_83
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 526
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af475f094a2cf5d4cbc8fdeb2c984be5
+      internalID: -2078001160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_84
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 526
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4aafafe4fa7c6442b8d7fedb7710918
+      internalID: -2063177442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_89
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 492
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79798806aa0a4547a162ac75b144232
+      internalID: 1287661236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_90
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 492
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80cc1e8e138335b4a970a7cec2060f3b
+      internalID: -666366017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_91
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 492
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eabb1ea63c4fcb40978bd72259cd2bf
+      internalID: 400300324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_92
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 492
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e78cfc1f70b6b498acd2607640b14a
+      internalID: 641311122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_93
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 492
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f3effbe94f6ad24cb03e1415501ce00
+      internalID: 1534460199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_94
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 492
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102d3785ab7818b48b374145ac2f757f
+      internalID: -1297940451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_95
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 492
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da38dd377115db343a5542c0689994aa
+      internalID: -707429593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_96
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 492
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42883e392b682f543afd860e41bdacea
+      internalID: -1256440387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_97
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 456
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e99281a25fbce342a817619b7fdf11a
+      internalID: -985512916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_98
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 456
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e71627c5ecfb545a1a10d75abe3a4f
+      internalID: -1193197352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_99
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 456
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e042c2e339268c74699a26d7bc7181ed
+      internalID: 1805908928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_100
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 456
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e867f146fa56e3f40ba33df1189c050d
+      internalID: 1925121136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_101
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 456
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37dffb2f076cd24c9813d12da716d0f
+      internalID: -1064972931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_102
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 456
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46200dbc2c920e844888dc019b0e66d5
+      internalID: 132472363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_103
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 456
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7509ae8ec08634bbac598511385708
+      internalID: -519587816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_104
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 456
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67dcbd0132d40c4eacc6a884f03e9ed
+      internalID: 776343050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_105
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 456
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2184aeb25e15f8d48b4eba2d317b3550
+      internalID: 1821806892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_106
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 456
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6921bfa43dfe24e888c7a0bb81ec08
+      internalID: -1206830212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_107
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 456
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9000f6ab044113841aadf03028faec8e
+      internalID: 996039762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_108
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 456
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27356612210bdb341b126cf39501a4c2
+      internalID: 1352153452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_109
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 456
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20bfbc2c7aff464c80c1edbc401b3f3
+      internalID: -1625489510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_110
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 456
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faee62f54c9a28642a30cb453f83a371
+      internalID: -1328563210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_111
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 456
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c546f71e91bef4e8a41a8f7ce6d0ea
+      internalID: 583274844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_112
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 456
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ed7d478f643e24cb4df39ef9256b80
+      internalID: -1682059734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_113
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 422
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ce623d2f9bbd048a9c196da6f585b3
+      internalID: 237712954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_114
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 422
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e757cd6f2a44e4fb9250c5e025955a
+      internalID: -763348384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_115
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 422
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987b6dfba84df3048a9c5d2e3a1d8fcc
+      internalID: 1218255676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_116
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 422
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d448f279167c36a4faff643942507e50
+      internalID: -1084212545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_117
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 422
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7fa647a1b861b546b8c5fac5c68e33f
+      internalID: 162421016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_118
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 422
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11be50a868138e84ea40232a1a87ee70
+      internalID: 196531804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_119
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 422
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ccaca952cc67a0418664c331bb1411d
+      internalID: -297464824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_120
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 422
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680313b5678511a4da7156605490006c
+      internalID: 1845655476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_121
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 422
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32006b87a107889489408db222647542
+      internalID: -656994929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_122
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 422
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa0c8fe449660b4ab2948ba50fa7488
+      internalID: 376180902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_123
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 422
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc710b1e0a91c5546b296dbe5472ec74
+      internalID: -1520505260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_124
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 422
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a6aa0ffe6ddc94a8ae3e0b777cd517
+      internalID: -1485902695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_125
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 422
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286597c99e4b70c488386549ba7289fa
+      internalID: -1881645960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_126
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 422
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43463b1f82eeda042837f9a7a8693f8a
+      internalID: -1435440244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_127
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 422
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af96c3c74bfdc7344be3de0026513c93
+      internalID: 76415184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_128
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 422
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a777c8f1bfdcd404a8e6520a7d881b98
+      internalID: -353503388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_129
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 388
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0ff8dcda75d2448833d63b82574d74
+      internalID: -499042947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_130
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 388
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a9f32f20005fe489d56ada8121a8d0
+      internalID: 1855836046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_131
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 388
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5243a02412b318488068ca37733faeb
+      internalID: -203720985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_132
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 388
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9904681e870b98a4db3371afd4276926
+      internalID: -1391150695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_133
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 388
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1243bc8e9ca4274db345b3dfd656ba1
+      internalID: 828724436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_134
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 388
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7266304f21751ac49adec064eb3ee4d2
+      internalID: 1844542962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_135
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 388
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec4c408938fce34496263ad8ceab83b
+      internalID: 923365570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_136
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 388
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a551167cf0005e84c951b144ff2f877c
+      internalID: -2079533090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_137
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 388
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4194c40a334765340a96e4da5e17a056
+      internalID: 364063114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_138
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 388
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be320ef4c8243546991e3a71e265033
+      internalID: -497768063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_139
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 388
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d614cbc868559e4ba084cd322b84a5e
+      internalID: 347368532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_140
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 388
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ba9e439c492204fb873b15a7510cd8
+      internalID: -641324475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_141
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 388
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ef30d8c6753854db1a2a40dd9a2587
+      internalID: -1659264069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_142
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 388
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9ace0d2ef2fcf418c0819544a8ce7e
+      internalID: 1836876335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_143
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 388
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c0abea7bbd79b44a15d309ac1a899c
+      internalID: -1575221444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_144
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 388
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc6344dbf4c64247b6e60edcc5d06a0
+      internalID: 1580892666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_145
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 354
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45c1417acd7720439c324affab5ca09
+      internalID: -2034572228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_146
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 354
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735c3441f679daf4a83343dbd2a16f95
+      internalID: -1829124373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_147
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 354
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22284749d361b7340a51af70401f0cb5
+      internalID: 100745275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_148
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 354
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f8ed9f3a8ef2e4d9415aa0a22e8b9f
+      internalID: 215308766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_149
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 354
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b37d42b7da49f4bb9abd4b61d0a3f7
+      internalID: -304600355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_150
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 354
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7b6fae42d82b340be87bee8ed52b9a
+      internalID: 1159977775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_151
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 354
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53a5ab54ea9e8a4fa9cae9e53c5ab7d
+      internalID: -367601375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_152
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 354
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c2ff1cbc3ecf74aab9466618407bc5
+      internalID: 222884126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_153
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 354
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1adefbe47df750c49b859e6076711e8e
+      internalID: -1994466584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_154
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 354
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0732c5981031fdf42aca0deb6f1037cf
+      internalID: 563955493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_155
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 354
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f278d8b6919d5b42bcea6e9b154ef3b
+      internalID: -1712359369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_156
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 354
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5912b0c4ce076e3479b95d78b5935b08
+      internalID: 555819821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_157
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 354
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6304c22e93fae544b07accb3e54efe5
+      internalID: 187434608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_158
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 354
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6293644c42abc343985de4fbd0a7b75
+      internalID: -57904463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_159
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 354
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a20ac5744b3f244d95fad43e22a2a32
+      internalID: -846742713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_160
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 354
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276e7a0bce1146e429a78b7b09fccb45
+      internalID: 1928303836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_161
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 318
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21322f186517f1f4f9e9baf4b58fa730
+      internalID: 690137388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_162
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 318
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b0da6e2608d4a469900d51f466171b
+      internalID: -1524174194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_163
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 318
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a61a0ba847340a40a9b19fb02ef6955
+      internalID: -60814104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_164
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 318
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8e32a49ef4f554eb628fae94ce00a2
+      internalID: -10794656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_165
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 318
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83cefc1275ee8914786e4c41c70625f0
+      internalID: -425374712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_166
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 318
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a67f1d2dc6e1f549a8e15fb3c94618e
+      internalID: 298188754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_167
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 318
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28b894a0c578cd40bbb32dad535783e
+      internalID: -830925654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_168
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 318
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b14c90ec71b03f4fa30eb4c0d042239
+      internalID: -560516281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_169
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 318
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c151e5f6a4dd34a8a6bdcb5a545270
+      internalID: 777276184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_170
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 318
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0760d3bedb1d3a04599349e913916f94
+      internalID: 1717338045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_171
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc4fcb1e0aa2de40a3a1c92ea74c136
+      internalID: -1643699414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_172
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9cd51e15a663c2489bc6f27c01c0c22
+      internalID: -339313057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_173
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6f3333a8625bd4699a7bbf792e3aac
+      internalID: 860614459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_174
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d55cfca10dd0c94aacc12d6c67bb8d0
+      internalID: 864280680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_175
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c1852aa693e704da7317ee7430a733
+      internalID: 323113989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_176
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502a71c2689ec184ab2d5dcff44b36d2
+      internalID: 1620867554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_177
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953832150b8f2d645b75943cc8d3c64b
+      internalID: 495674808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_178
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ac925f19fb2054288a5c1779a6829d
+      internalID: 463001661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_179
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad69643d22b9e8e4881b50aa92a001bf
+      internalID: 1297769137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_180
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c046221929f64de4bb0c8acd9a260981
+      internalID: -870026112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_181
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 250
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72c8769ec896324e92ffa085c3658f6
+      internalID: -1232207631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_182
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 250
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39ecac9d44b1654ba88385ecb985493
+      internalID: 2043129813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_183
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 250
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ffd74dc0d0c1de4a82903aaf9d206d1
+      internalID: -380757431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_184
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 250
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ece10399645b6d44aa2af409c402d83
+      internalID: 2042341180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_185
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 250
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6e76f8c4d89cb4e85d0e1d902192bb
+      internalID: -713271639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_186
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 250
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999c03cdcd2918445b1aff265c4b5db8
+      internalID: 1582232821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_187
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 250
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b362b9d259602744081219d24fdc4898
+      internalID: -882754034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_188
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 250
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb1b259302bf9c439d04f951a3aff90
+      internalID: 856973509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_189
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 250
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d514c3dfb82134582a2e67e70c8f37
+      internalID: -4547849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_190
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 250
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ebdcf9c6acb0c45934e6e24431c0de
+      internalID: -1888979413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_191
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 216
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f519e830f8eec3d4789ca34f8b399858
+      internalID: 385867927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_192
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 216
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f5095cca5db47448e32a62cf52febd
+      internalID: 1430355859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_193
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 216
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886d2eb83e0cede46824bfa71d1a3849
+      internalID: 1993497252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_194
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 216
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0b709a2da88a847b632ccfcd0cb454
+      internalID: 1366714145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_195
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 216
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45dff51df39f5324eba5399af7a75030
+      internalID: 1059701234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_196
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 216
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bad8527f411d1d43a603e90ef60300f
+      internalID: 504178687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_197
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 216
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1c2a57a438fb14da33cefc8ac218c4
+      internalID: -1528201162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_198
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 216
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a894543ccbc1d43987c8024b80e823
+      internalID: -1588844798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_199
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 216
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a0aa533f5a99641bb542cea6233a7d
+      internalID: 1008875035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_200
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 180
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291a1b8c1b79e2544ba1119fdc2cf38a
+      internalID: -403907230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_201
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 180
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78eb5565bfcf26489c77077a562e578
+      internalID: -647891139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_202
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 180
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1651cab36ca2f2342a631bfb444fd983
+      internalID: -2021590291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_203
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 180
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2851ac97d71c14694235504d58f633
+      internalID: -332722392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_204
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 180
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861eeaa64f3783f45884b392b822e712
+      internalID: 2070516606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_205
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 180
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5cc707bd5393442bb815abdd29364a
+      internalID: 1661192327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_206
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 180
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b9ba0496c9a6d4d9227a96b3c9efa1
+      internalID: -433272314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_207
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 180
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509a3735258ef77488c0ad804003a7c5
+      internalID: 576857079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_208
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 180
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9caeb0c613a4e4ebb9a454ab472755
+      internalID: -82383368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_209
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 180
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2184a432d4b4d4ea749c9cecc141c3
+      internalID: 501749964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_210
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 180
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c5506c220736b4cac4bbf9743d522d
+      internalID: -1464227604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_211
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 180
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbba67fe274df5c4580f2691e2d23379
+      internalID: 1873806214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_212
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 180
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e207a7bc2354114eb88b2d20b9765da
+      internalID: 120356682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_213
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 180
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ec842df9c2d6f46925234748a346d3
+      internalID: 56621966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_214
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 180
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37260d5eb49bf0d498454375556a82cb
+      internalID: 1659145588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_215
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 180
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ef330d8a821d140967277144a504ad
+      internalID: 164249581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_216
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81cdcd744041a2245a649922d02b2a96
+      internalID: 2003799064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_217
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1a5268a8175cc489991ae862e43331
+      internalID: -534237955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_218
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5efbc4a9c0216d040a6411fae5f1fa45
+      internalID: -742536565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_219
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb1a7eb6c761b84a8789d7d34818e99
+      internalID: 719941273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_220
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6197a0e3ab267704d925a499a289e757
+      internalID: -289572705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_221
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92af5f7331a73ba43ae3b86c94a4081a
+      internalID: -676478144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_222
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5e91a8ce5377c4984cf49d879d8c04
+      internalID: -1618439263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_223
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edb76206200d58449206a6243d4c887
+      internalID: 1810428855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_224
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00f672b59033bb479818cb2205e1236
+      internalID: 1481890269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_225
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47487f57009949b4eaee6f0366c6c70b
+      internalID: -543227244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_226
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a881a7f7b70ed604f8a16701c7b9bacc
+      internalID: -1940616354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_227
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e46bc39c3a34d45b2d6d9d0ed714ee
+      internalID: 273233152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_228
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257f1bbd261a3a040ae5bb275221d120
+      internalID: -1422827955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_229
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da21c1a077a9bd5498a602450c1dc4bc
+      internalID: 1993186467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_230
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1c1db206f128440b566ebe79880add
+      internalID: -557002436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_231
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e3ec7f0fdf304468ed0d540df6a8e9
+      internalID: 102678534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_232
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 112
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985deb4d7e5f63f4382c2980caa05559
+      internalID: 381375481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_233
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 112
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5349d8dfdc5dbe64a9ca8c284516c97b
+      internalID: -143133942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_234
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 112
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61df0acc9a099db4894a4e2d6a24767b
+      internalID: -1168468975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_235
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 112
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575a0019229e9c645986a5a38510850e
+      internalID: -1819143454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_236
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 112
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5630caa88feb245988676ed11453d4
+      internalID: 1263777800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_237
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 112
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868dc888c18790d4cae6b8803ad120d8
+      internalID: 338487659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_238
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 112
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ffce9fdec392c42814b73cd443d6e7
+      internalID: 1345407573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_239
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 112
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c19bb0cd725084fa78714105314a08
+      internalID: -796898676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_240
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 112
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6655219a8d53bff4aae2fa2daa16fb66
+      internalID: -1181870994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_241
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 112
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd26a7c7e3d61e8478d838bac421dcb0
+      internalID: -296975776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_242
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 112
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e148b8a664fc94e47a04011934ada715
+      internalID: 1590588408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_243
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 112
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22a0ece49df4b440b1ad16e16b5a32d
+      internalID: -821252766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_244
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 112
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b68eaea7b2cc4f409e60fe684c9678c
+      internalID: 2111734586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_245
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 112
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9820f34235628fa4887ed9099d61f611
+      internalID: 2099562999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_246
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 112
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57dbd0a2237438c4288c56923527c220
+      internalID: 289133298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_247
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 112
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c4a3b86777e6a4baa924ff295b8d2d
+      internalID: -1805038826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_248
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 78
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28df1a52d2b0b9c4fad76477a734f84b
+      internalID: -976304274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_249
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 78
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47915f72e98a51e479aac78f650baa47
+      internalID: 1084066487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_250
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 78
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f91a73051fdc041a70d97d0f1619be
+      internalID: 1010145788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_251
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 78
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a0645233d3d0c49bdfe9eced6e695a
+      internalID: -534466022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_252
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 78
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 649cad58ce411544fa022209c8b41e76
+      internalID: 658374749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_253
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 78
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b986f7c4d32c2ef4997c2776b667bc76
+      internalID: -360793620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_254
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 78
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52951fde2b9e6246a4e2f90a120a9f8
+      internalID: 860648332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_255
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 78
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26bde09cecbe875498ea1afe769c2815
+      internalID: -1107195474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_256
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 78
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2db2e0941c64034c9a68d880fb17d6c
+      internalID: 2076572791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_257
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 78
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ff8a595d85af64db5b907f1752da0f
+      internalID: 1194385514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_258
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 78
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a44c6e420f74846808c9cd3d15d8af
+      internalID: -1266509680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_259
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 78
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe3408681ac28442b11ace86ba47851
+      internalID: -1060396710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_260
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 78
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe419ad84977354da1de19355b8de9f
+      internalID: 844231652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_261
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 78
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b147c9582d33da439971228c6161f95
+      internalID: 1980722408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_262
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 78
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e31308208eaaa34da25758e0005d6a6
+      internalID: -1104011060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR transparente_263
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 78
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72aaa1733d248824392b290485dcbe2a
+      internalID: 2016693895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      FLOOR transparente_0: -436667926
+      FLOOR transparente_1: -543377351
+      FLOOR transparente_10: 1695401522
+      FLOOR transparente_100: 1925121136
+      FLOOR transparente_101: -1064972931
+      FLOOR transparente_102: 132472363
+      FLOOR transparente_103: -519587816
+      FLOOR transparente_104: 776343050
+      FLOOR transparente_105: 1821806892
+      FLOOR transparente_106: -1206830212
+      FLOOR transparente_107: 996039762
+      FLOOR transparente_108: 1352153452
+      FLOOR transparente_109: -1625489510
+      FLOOR transparente_11: -1733949392
+      FLOOR transparente_110: -1328563210
+      FLOOR transparente_111: 583274844
+      FLOOR transparente_112: -1682059734
+      FLOOR transparente_113: 237712954
+      FLOOR transparente_114: -763348384
+      FLOOR transparente_115: 1218255676
+      FLOOR transparente_116: -1084212545
+      FLOOR transparente_117: 162421016
+      FLOOR transparente_118: 196531804
+      FLOOR transparente_119: -297464824
+      FLOOR transparente_12: 59627755
+      FLOOR transparente_120: 1845655476
+      FLOOR transparente_121: -656994929
+      FLOOR transparente_122: 376180902
+      FLOOR transparente_123: -1520505260
+      FLOOR transparente_124: -1485902695
+      FLOOR transparente_125: -1881645960
+      FLOOR transparente_126: -1435440244
+      FLOOR transparente_127: 76415184
+      FLOOR transparente_128: -353503388
+      FLOOR transparente_129: -499042947
+      FLOOR transparente_13: -1347044609
+      FLOOR transparente_130: 1855836046
+      FLOOR transparente_131: -203720985
+      FLOOR transparente_132: -1391150695
+      FLOOR transparente_133: 828724436
+      FLOOR transparente_134: 1844542962
+      FLOOR transparente_135: 923365570
+      FLOOR transparente_136: -2079533090
+      FLOOR transparente_137: 364063114
+      FLOOR transparente_138: -497768063
+      FLOOR transparente_139: 347368532
+      FLOOR transparente_14: 1569920049
+      FLOOR transparente_140: -641324475
+      FLOOR transparente_141: -1659264069
+      FLOOR transparente_142: 1836876335
+      FLOOR transparente_143: -1575221444
+      FLOOR transparente_144: 1580892666
+      FLOOR transparente_145: -2034572228
+      FLOOR transparente_146: -1829124373
+      FLOOR transparente_147: 100745275
+      FLOOR transparente_148: 215308766
+      FLOOR transparente_149: -304600355
+      FLOOR transparente_15: -2010041949
+      FLOOR transparente_150: 1159977775
+      FLOOR transparente_151: -367601375
+      FLOOR transparente_152: 222884126
+      FLOOR transparente_153: -1994466584
+      FLOOR transparente_154: 563955493
+      FLOOR transparente_155: -1712359369
+      FLOOR transparente_156: 555819821
+      FLOOR transparente_157: 187434608
+      FLOOR transparente_158: -57904463
+      FLOOR transparente_159: -846742713
+      FLOOR transparente_16: 333674538
+      FLOOR transparente_160: 1928303836
+      FLOOR transparente_161: 690137388
+      FLOOR transparente_162: -1524174194
+      FLOOR transparente_163: -60814104
+      FLOOR transparente_164: -10794656
+      FLOOR transparente_165: -425374712
+      FLOOR transparente_166: 298188754
+      FLOOR transparente_167: -830925654
+      FLOOR transparente_168: -560516281
+      FLOOR transparente_169: 777276184
+      FLOOR transparente_17: -205205416
+      FLOOR transparente_170: 1717338045
+      FLOOR transparente_171: -1643699414
+      FLOOR transparente_172: -339313057
+      FLOOR transparente_173: 860614459
+      FLOOR transparente_174: 864280680
+      FLOOR transparente_175: 323113989
+      FLOOR transparente_176: 1620867554
+      FLOOR transparente_177: 495674808
+      FLOOR transparente_178: 463001661
+      FLOOR transparente_179: 1297769137
+      FLOOR transparente_18: -86485948
+      FLOOR transparente_180: -870026112
+      FLOOR transparente_181: -1232207631
+      FLOOR transparente_182: 2043129813
+      FLOOR transparente_183: -380757431
+      FLOOR transparente_184: 2042341180
+      FLOOR transparente_185: -713271639
+      FLOOR transparente_186: 1582232821
+      FLOOR transparente_187: -882754034
+      FLOOR transparente_188: 856973509
+      FLOOR transparente_189: -4547849
+      FLOOR transparente_19: -1374321650
+      FLOOR transparente_190: -1888979413
+      FLOOR transparente_191: 385867927
+      FLOOR transparente_192: 1430355859
+      FLOOR transparente_193: 1993497252
+      FLOOR transparente_194: 1366714145
+      FLOOR transparente_195: 1059701234
+      FLOOR transparente_196: 504178687
+      FLOOR transparente_197: -1528201162
+      FLOOR transparente_198: -1588844798
+      FLOOR transparente_199: 1008875035
+      FLOOR transparente_2: -990553367
+      FLOOR transparente_20: -1525823354
+      FLOOR transparente_200: -403907230
+      FLOOR transparente_201: -647891139
+      FLOOR transparente_202: -2021590291
+      FLOOR transparente_203: -332722392
+      FLOOR transparente_204: 2070516606
+      FLOOR transparente_205: 1661192327
+      FLOOR transparente_206: -433272314
+      FLOOR transparente_207: 576857079
+      FLOOR transparente_208: -82383368
+      FLOOR transparente_209: 501749964
+      FLOOR transparente_21: -1166887634
+      FLOOR transparente_210: -1464227604
+      FLOOR transparente_211: 1873806214
+      FLOOR transparente_212: 120356682
+      FLOOR transparente_213: 56621966
+      FLOOR transparente_214: 1659145588
+      FLOOR transparente_215: 164249581
+      FLOOR transparente_216: 2003799064
+      FLOOR transparente_217: -534237955
+      FLOOR transparente_218: -742536565
+      FLOOR transparente_219: 719941273
+      FLOOR transparente_22: -1698170070
+      FLOOR transparente_220: -289572705
+      FLOOR transparente_221: -676478144
+      FLOOR transparente_222: -1618439263
+      FLOOR transparente_223: 1810428855
+      FLOOR transparente_224: 1481890269
+      FLOOR transparente_225: -543227244
+      FLOOR transparente_226: -1940616354
+      FLOOR transparente_227: 273233152
+      FLOOR transparente_228: -1422827955
+      FLOOR transparente_229: 1993186467
+      FLOOR transparente_23: -1269778171
+      FLOOR transparente_230: -557002436
+      FLOOR transparente_231: 102678534
+      FLOOR transparente_232: 381375481
+      FLOOR transparente_233: -143133942
+      FLOOR transparente_234: -1168468975
+      FLOOR transparente_235: -1819143454
+      FLOOR transparente_236: 1263777800
+      FLOOR transparente_237: 338487659
+      FLOOR transparente_238: 1345407573
+      FLOOR transparente_239: -796898676
+      FLOOR transparente_24: -447464312
+      FLOOR transparente_240: -1181870994
+      FLOOR transparente_241: -296975776
+      FLOOR transparente_242: 1590588408
+      FLOOR transparente_243: -821252766
+      FLOOR transparente_244: 2111734586
+      FLOOR transparente_245: 2099562999
+      FLOOR transparente_246: 289133298
+      FLOOR transparente_247: -1805038826
+      FLOOR transparente_248: -976304274
+      FLOOR transparente_249: 1084066487
+      FLOOR transparente_25: -757541524
+      FLOOR transparente_250: 1010145788
+      FLOOR transparente_251: -534466022
+      FLOOR transparente_252: 658374749
+      FLOOR transparente_253: -360793620
+      FLOOR transparente_254: 860648332
+      FLOOR transparente_255: -1107195474
+      FLOOR transparente_256: 2076572791
+      FLOOR transparente_257: 1194385514
+      FLOOR transparente_258: -1266509680
+      FLOOR transparente_259: -1060396710
+      FLOOR transparente_26: -1065460023
+      FLOOR transparente_260: 844231652
+      FLOOR transparente_261: 1980722408
+      FLOOR transparente_262: -1104011060
+      FLOOR transparente_263: 2016693895
+      FLOOR transparente_27: 1257322326
+      FLOOR transparente_28: 257015864
+      FLOOR transparente_29: 1758241843
+      FLOOR transparente_3: 2072160106
+      FLOOR transparente_30: -804868298
+      FLOOR transparente_31: 654617532
+      FLOOR transparente_32: -1080696269
+      FLOOR transparente_33: 516127234
+      FLOOR transparente_34: 1101376840
+      FLOOR transparente_35: 1505496447
+      FLOOR transparente_36: -962136047
+      FLOOR transparente_37: 1708138649
+      FLOOR transparente_38: -1501510522
+      FLOOR transparente_39: -537931954
+      FLOOR transparente_4: 528478537
+      FLOOR transparente_40: -2007575371
+      FLOOR transparente_41: -1369100688
+      FLOOR transparente_42: 81506319
+      FLOOR transparente_43: -1611699371
+      FLOOR transparente_44: 2094379659
+      FLOOR transparente_45: 988929384
+      FLOOR transparente_46: 523011348
+      FLOOR transparente_47: 819130249
+      FLOOR transparente_48: -133959593
+      FLOOR transparente_49: 130660793
+      FLOOR transparente_5: 1007675981
+      FLOOR transparente_50: -137172752
+      FLOOR transparente_51: 1152441095
+      FLOOR transparente_52: 1993987450
+      FLOOR transparente_53: 428254647
+      FLOOR transparente_54: 2102337416
+      FLOOR transparente_55: -277487204
+      FLOOR transparente_56: 364271672
+      FLOOR transparente_57: 1718215137
+      FLOOR transparente_58: -763274537
+      FLOOR transparente_59: -805229785
+      FLOOR transparente_6: 186359652
+      FLOOR transparente_60: 1373099569
+      FLOOR transparente_61: 1035878173
+      FLOOR transparente_62: -1184180598
+      FLOOR transparente_63: 636089483
+      FLOOR transparente_64: 1013925652
+      FLOOR transparente_65: -1049648728
+      FLOOR transparente_66: 1102955143
+      FLOOR transparente_67: 70278535
+      FLOOR transparente_68: -27126115
+      FLOOR transparente_69: -1726970297
+      FLOOR transparente_7: -1349555783
+      FLOOR transparente_70: -721252602
+      FLOOR transparente_71: 2071754269
+      FLOOR transparente_72: -627334763
+      FLOOR transparente_73: 1175624641
+      FLOOR transparente_74: -996198550
+      FLOOR transparente_75: -1841340953
+      FLOOR transparente_76: 910115176
+      FLOOR transparente_77: -1810720418
+      FLOOR transparente_78: -1198974627
+      FLOOR transparente_79: 967333002
+      FLOOR transparente_8: 1580950489
+      FLOOR transparente_80: 428518308
+      FLOOR transparente_81: 964910441
+      FLOOR transparente_82: 1562701657
+      FLOOR transparente_83: -2078001160
+      FLOOR transparente_84: -2063177442
+      FLOOR transparente_85: -26079044
+      FLOOR transparente_86: 158652612
+      FLOOR transparente_87: -1651173658
+      FLOOR transparente_88: 137234595
+      FLOOR transparente_89: 1287661236
+      FLOOR transparente_9: -468812290
+      FLOOR transparente_90: -666366017
+      FLOOR transparente_91: 400300324
+      FLOOR transparente_92: 641311122
+      FLOOR transparente_93: 1534460199
+      FLOOR transparente_94: -1297940451
+      FLOOR transparente_95: -707429593
+      FLOOR transparente_96: -1256440387
+      FLOOR transparente_97: -985512916
+      FLOOR transparente_98: -1193197352
+      FLOOR transparente_99: 1805908928
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

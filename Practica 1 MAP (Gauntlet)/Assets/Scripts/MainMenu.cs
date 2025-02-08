@@ -14,13 +14,13 @@ public class MainMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.anyKeyDown) CargarNivel("Level 1");
+        if (Input.anyKeyDown) CargarNivel(2);
     }
 
     
-    public void CargarNivel(string nombredelnivel)
+    public void CargarNivel(int levelindex)
     {
-        SceneManager.LoadScene(nombredelnivel);
+        SceneManager.LoadScene(levelindex);
 
     }
 

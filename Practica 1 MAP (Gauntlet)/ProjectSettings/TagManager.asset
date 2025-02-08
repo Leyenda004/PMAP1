@@ -12,12 +12,12 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Confiner(camera)
+  - Bullet
+  - Player
+  - Enemy
+  - Walls
+  - Interactuable
   - 
   - 
   - 
@@ -42,9 +42,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: walls
+    uniqueID: 2897000955
+    locked: 0
   - name: objects
     uniqueID: 3405854421
     locked: 0
-  - name: walls
-    uniqueID: 2897000955
+  - name: UI
+    uniqueID: 1485452127
     locked: 0
