@@ -585,8 +585,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 914904130}
         m_TargetAssemblyTypeName: CharSelec, Assembly-CSharp
-        m_MethodName: ElfSelection
-        m_Mode: 1
+        m_MethodName: CharSelection
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -723,7 +723,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 914904125}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 90}
   m_LocalScale: {x: 0.02631579, y: 0.02631579, z: 0.02631579}
   m_ConstrainProportionsScale: 0
@@ -750,6 +750,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82c615ebcae48d249927c0b062bd71e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1455777746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1455777747}
+  m_Layer: 0
+  m_Name: GOSelector
+  m_TagString: CharSelection
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1455777747
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455777746}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 376.18387, y: 119.71336, z: -2.2419872}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1746216564
 GameObject:
   m_ObjectHideFlags: 0
@@ -928,8 +959,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 914904130}
         m_TargetAssemblyTypeName: CharSelec, Assembly-CSharp
-        m_MethodName: ValkyrieSelection
-        m_Mode: 1
+        m_MethodName: CharSelection
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -993,5 +1024,6 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1746216567}
-  - {fileID: 914904129}
   - {fileID: 675040332}
+  - {fileID: 914904129}
+  - {fileID: 1455777747}

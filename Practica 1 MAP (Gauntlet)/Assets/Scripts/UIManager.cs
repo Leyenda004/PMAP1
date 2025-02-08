@@ -19,6 +19,7 @@ public class UIManager : MonoBehaviour
         playerhealth = FindObjectOfType<Health>();
         score = GameManager.Instance.score;
         screenTuto.SetActive(false);
+        GameManager.Instance.StartGame(this);
     }
 
     public void ShowTutorial(string message)
