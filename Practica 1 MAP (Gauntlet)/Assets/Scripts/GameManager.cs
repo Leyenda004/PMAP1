@@ -76,7 +76,7 @@ public class GameManager : MonoBehaviour
 
     public void TreasureCollected()
     {
-        score += 100;
+        score += 50;
         Debug.Log("score +100");
     }
 
@@ -96,6 +96,8 @@ public class GameManager : MonoBehaviour
     }
     public void SetKeyBool(bool value) // Activa o desactiva la boleana que indica si el jugador porta una llave
     {
+
+        score += 50;
         havingKey = value;
     }
 

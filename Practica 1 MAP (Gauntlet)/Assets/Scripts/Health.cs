@@ -38,7 +38,7 @@ public class Health : MonoBehaviour
 
     public void IniHealth()
     {
-        health = 10;
+        health = 750;
     }
 
     public void Heal(int healthadded)
