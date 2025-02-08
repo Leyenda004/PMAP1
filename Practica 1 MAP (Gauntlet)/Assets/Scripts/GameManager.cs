@@ -48,6 +48,7 @@ public class GameManager : MonoBehaviour
         bool IsValkchosen = GOSelector.name == "valkyrie";
         Debug.Log(IsValkchosen);
         player.GetComponentInChildren<Animator>().SetBool("IsValkChosen", IsValkchosen);
+        player.GetComponentInChildren<Gun>().bulletSkin(IsValkchosen);
         //Destroy(GOSelector);
 
     }

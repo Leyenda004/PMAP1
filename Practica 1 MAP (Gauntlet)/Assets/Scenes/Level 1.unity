@@ -3231,7 +3231,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b9d2555aadfdb54baa27af5f5fd9d9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 8728633517325471447, guid: b6c6360808f007b4893ee343b2a3c0bd, type: 3}
+  ValkbulletPrefab: {fileID: 8728633517325471447, guid: b6c6360808f007b4893ee343b2a3c0bd, type: 3}
+  ElfbulletPrefab: {fileID: 8728633517325471447, guid: 80b88f95f55b92542831d22dd846772f, type: 3}
   fireRate: 0.5
   bulletSpeed: 15
 --- !u!1 &690520603
