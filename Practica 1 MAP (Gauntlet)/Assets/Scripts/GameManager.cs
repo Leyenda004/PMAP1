@@ -40,11 +40,15 @@ public class GameManager : MonoBehaviour
 
     }
 
-    public void StartGame(UIManager ui)
+    public void StartGame(UIManager uiscript)
     {
-        this.ui = ui;
+        ui = uiscript;
         firstEnemy = true;
-
+        GameObject GOSelector = GameObject.FindGameObjectWithTag("CharSelection");
+        bool IsValkchosen = GOSelector.name == "valkyrie";
+        Debug.Log(IsValkchosen);
+        player.GetComponentInChildren<Animator>().SetBool("IsValkChosen", IsValkchosen);
+        //Destroy(GOSelector);
 
     }
     
