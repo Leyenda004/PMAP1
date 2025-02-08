@@ -27,9 +27,7 @@ public class Colliders : MonoBehaviour
     //devuelve true si no hay enemigos en este hueco
     public bool ComprobarColision()
     {
-        Debug.Log(gameObject +" "+ (tocandome <= 0));
-        return tocandome <= 0;
-        
+        return tocandome <= 0;    
     }
     
     void Update()
