@@ -20,10 +20,14 @@ public class Bullet : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
+
         if (other.gameObject.tag == "Enemy")
         {
-            other.gameObject.GetComponent<Enemy>().Harm(bulletDamage);
-            Debug.Log("Enemy Health: " + other.gameObject.GetComponent<Enemy>().getHealth());
+            if (other.gameObject.GetComponent<Enemy>() != null)
+                other.gameObject.GetComponent<Enemy>().Harm(bulletDamage);
+            if (other.gameObject.GetComponent<Enemygosht>() != null)
+                other.gameObject.GetComponent<Enemygosht>().Harm(bulletDamage);
+            //Debug.Log("Enemy Health: " + other.gameObject.GetComponent<Enemy>().getHealth());
         }
         Destroy(gameObject);
     }
