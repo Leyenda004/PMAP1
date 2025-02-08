@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class GameManager : MonoBehaviour
 {
     private float second = 0f; //para contar el tiempo y quitar 1 vida por segundo
@@ -36,23 +37,28 @@ public class GameManager : MonoBehaviour
     {
         ui = FindObjectOfType<UIManager>();
         score = 0;
+
     }
+
     public void StartGame(UIManager ui)
     {
         this.ui = ui;
         firstEnemy = true;
-        second = 0f;
+
+
     }
     
     public void CharSelection(string selection)
     {
         if (selection == "valkyrie")
         {
-
+            score = 0;
+            player.GetComponent<Health>().IniHealth();
         }
         else
         {
-
+            score = 0;
+            player.GetComponent<Health>().IniHealth();
         }
     }
 
