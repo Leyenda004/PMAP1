@@ -643,6 +643,7 @@ GameObject:
   - component: {fileID: 7621775236155138270}
   - component: {fileID: 8283783816409613421}
   - component: {fileID: 689989733343130079}
+  - component: {fileID: 6930808142145217631}
   m_Layer: 0
   m_Name: Spawner
   m_TagString: Untagged
@@ -795,6 +796,30 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &6930808142145217631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8185017134018563224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd9c1c6e7eb76fd46aa484d4f4a53c83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  healthIni: 3
+  spriteFull1: {fileID: 379396680, guid: 61177c8d29e3e304d820bcf58c4bb5a6, type: 3}
+  spriteMid1: {fileID: -1875182006, guid: 61177c8d29e3e304d820bcf58c4bb5a6, type: 3}
+  spriteLow1: {fileID: -1893138601, guid: 61177c8d29e3e304d820bcf58c4bb5a6, type: 3}
+  spriteFull2: {fileID: -2040604898, guid: 61177c8d29e3e304d820bcf58c4bb5a6, type: 3}
+  spriteMid2: {fileID: 625400402, guid: 61177c8d29e3e304d820bcf58c4bb5a6, type: 3}
+  spriteLow2: {fileID: -1320824877, guid: 61177c8d29e3e304d820bcf58c4bb5a6, type: 3}
+  spriteFull3: {fileID: -2040604898, guid: 61177c8d29e3e304d820bcf58c4bb5a6, type: 3}
+  spriteMid3: {fileID: 625400402, guid: 61177c8d29e3e304d820bcf58c4bb5a6, type: 3}
+  spriteLow3: {fileID: -1320824877, guid: 61177c8d29e3e304d820bcf58c4bb5a6, type: 3}
+  tipoEnemy: 0
 --- !u!1 &8436968822313581542
 GameObject:
   m_ObjectHideFlags: 0
