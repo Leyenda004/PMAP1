@@ -25,4 +25,8 @@ public class ControladorSonido : MonoBehaviour
     {
         audioSource.PlayOneShot(sonido);
     }
+    public void PararSonido()
+    {
+        audioSource.Stop();
+    }
 }

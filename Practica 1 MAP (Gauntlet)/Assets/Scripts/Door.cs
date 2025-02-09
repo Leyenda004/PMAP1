@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class Disappear : MonoBehaviour
 {
+    [SerializeField] AudioClip doorOpened;
+
     void OnCollisionEnter2D(Collision2D colision)
     {
-        if (colision.gameObject.GetComponent<PlayerMovement>() != null && GameManager.Instance.havingKey) //comprueba si ha colisionado con el jugador y si este tiene una llave
+        if (colision.gameObject.GetComponent<PlayerMovement>() != null && GameManager.Instance.havingKey > 0) //comprueba si ha colisionado con el jugador y si este tiene una llave
         {
-            GameManager.Instance.SetKeyBool(false);
+            GameManager.Instance.SetKeyValue(-1);
+            ControladorSonido.Instance.ReproducirSonido(doorOpened);
             Destroy(gameObject);
         }
     }

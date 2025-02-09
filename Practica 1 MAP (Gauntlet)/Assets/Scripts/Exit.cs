@@ -7,6 +7,7 @@ public class Exit : MonoBehaviour
 {
     [SerializeField] private GameObject playerAnim;
     private Animator animator;
+    [SerializeField]  AudioClip exit;
 
     void Start()
     {
@@ -16,6 +17,7 @@ public class Exit : MonoBehaviour
     {
         if (collision.gameObject.GetComponent<PlayerMovement>() != null)
         {
+            ControladorSonido.Instance.ReproducirSonido(exit);
             animator.SetTrigger("Exit");
             StartCoroutine(ExitDelay());
 

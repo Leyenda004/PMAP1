@@ -21,11 +21,12 @@ public class UIManager : MonoBehaviour
         playerhealth = FindObjectOfType<Health>();
         score = GameManager.Instance.score;
         screenTuto.SetActive(false);
-        GameManager.Instance.StartGame(this);
-
         //ESTO ES PARA EVITAR QUE EL JUGDOR PUEDA ALTERAR LOS SPRITES DE ORIENTACION MIENTRAS SE ENSEÑA EN TUTO
         playerscript = FindAnyObjectByType<PlayerMovement>();
         gunscript = playerscript.gameObject.GetComponentInChildren<Gun>();
+        GameManager.Instance.StartGame(this, playerscript.gameObject);
+
+        
     }
 
     public void ShowTutorial(string message)
