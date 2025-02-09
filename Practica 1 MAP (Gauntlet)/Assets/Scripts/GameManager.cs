@@ -29,6 +29,7 @@ public class GameManager : MonoBehaviour
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
+
         }
     }
 
@@ -114,14 +115,8 @@ public class GameManager : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        second += Time.deltaTime;
 
-        if (second >= 1) //si pasa un segundo, resta uno de vida. Pone >= por si se exceden los decimales al sumar por frame
-        {
-            player.GetComponent<Health>().Harm(1);
-            second = 0f;
-        }
     }
 }
