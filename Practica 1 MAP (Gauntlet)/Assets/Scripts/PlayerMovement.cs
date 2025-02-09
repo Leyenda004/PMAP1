@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -10,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float playerSpeed = 7; // Variar desde la interfaz de Unity
     Rigidbody2D rb;
     bool shooting = false;
+    bool canMove = true;
     Vector2 dir { get; set; }
     Vector2 lastDir { get; set; }
 
@@ -27,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
     }
     void Update()
     {
-        if (!shooting)
+        if (canMove && !shooting)
         { 
         dir = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         rb.velocity = dir * playerSpeed;
@@ -105,6 +107,16 @@ public class PlayerMovement : MonoBehaviour
         //    animator.SetBool("Walk_Left", false);
         //    animator.SetBool("Walk_Right", false);
         //}
+    }
+    public void DisableMovement()
+    {
+        canMove = false;
+    }
+
+    // Método para activar el movimiento (por si lo necesitas en otro momento)
+    public void EnableMovement()
+    {
+        canMove = true;
     }
 
 }
