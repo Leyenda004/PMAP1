@@ -7,8 +7,10 @@ public class GameManager : MonoBehaviour
 {
     private float second = 0f; //para contar el tiempo y quitar 1 vida por segundo
     public int score;
-    public int havingKey = 0;
+    public int keyAmmount = 0;
     private bool firstEnemy;
+    public bool firstKey;
+    public bool firstTrap;
     private static GameManager instance;
     private UIManager ui;
     public bool IsValkchosen;
@@ -17,6 +19,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] AudioClip key;
     [SerializeField] AudioClip potion;
     [SerializeField] AudioClip food;
+    [SerializeField] UIkeyBehaviour UIkeyScript;
 
 
     public static GameManager Instance { get { return instance; } }
@@ -49,6 +52,9 @@ public class GameManager : MonoBehaviour
 
     public void StartGame(UIManager uiscript, GameObject jugador)
     {
+        firstEnemy = true;
+        firstKey = true;
+        firstTrap = true;
         ui = uiscript;
         player = jugador;
         firstEnemy = true;
@@ -111,7 +117,8 @@ public class GameManager : MonoBehaviour
     {
 
         score += 50;
-        havingKey += value;
+        keyAmmount += value;
+        ui.EvaluateKeys(keyAmmount);
         if (value > 0) ControladorSonido.Instance.ReproducirSonido(key);
     }
 

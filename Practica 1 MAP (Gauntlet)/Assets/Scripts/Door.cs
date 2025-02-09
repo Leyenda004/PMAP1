@@ -8,7 +8,7 @@ public class Disappear : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D colision)
     {
-        if (colision.gameObject.GetComponent<PlayerMovement>() != null && GameManager.Instance.havingKey > 0) //comprueba si ha colisionado con el jugador y si este tiene una llave
+        if (colision.gameObject.GetComponent<PlayerMovement>() != null && GameManager.Instance.keyAmmount > 0) //comprueba si ha colisionado con el jugador y si este tiene una llave
         {
             GameManager.Instance.SetKeyValue(-1);
             ControladorSonido.Instance.ReproducirSonido(doorOpened);

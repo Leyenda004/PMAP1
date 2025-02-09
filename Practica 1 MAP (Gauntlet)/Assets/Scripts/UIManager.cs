@@ -5,11 +5,17 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    [SerializeField] private Health playerhealth; 
-    [SerializeField] private Text Healthb;
-    [SerializeField] private Text Scoreb;
+    [SerializeField] Health playerhealth; 
+    [SerializeField] Text Healthb;
+    [SerializeField] Text Scoreb;
+    [SerializeField] Text ELFHealthb;
+    [SerializeField] Text ELFScoreb;
+    [SerializeField] GameObject VALKinsertCoin;
+    [SerializeField] GameObject ELFinsertCoin;
+
     [SerializeField] private Text Tutorial;
     [SerializeField] private GameObject screenTuto;
+    [SerializeField] GameObject[] keysUi;
 
     private int score;
     PlayerMovement playerscript;
@@ -22,11 +28,26 @@ public class UIManager : MonoBehaviour
         score = GameManager.Instance.score;
         screenTuto.SetActive(false);
         //ESTO ES PARA EVITAR QUE EL JUGDOR PUEDA ALTERAR LOS SPRITES DE ORIENTACION MIENTRAS SE ENSEÑA EN TUTO
-        playerscript = FindAnyObjectByType<PlayerMovement>();
+        playerscript = playerhealth.gameObject.GetComponent<PlayerMovement>();
         gunscript = playerscript.gameObject.GetComponentInChildren<Gun>();
+        EvaluateKeys(0);
         GameManager.Instance.StartGame(this, playerscript.gameObject);
 
-        
+        if (!GameManager.Instance.IsValkchosen)
+        {
+            Healthb = ELFHealthb;
+            Scoreb = ELFScoreb;
+            VALKinsertCoin.SetActive(true);
+            ELFinsertCoin.SetActive(false);
+            keysUi[0].gameObject.transform.position += new Vector3(0, -150.23f, 0);
+            keysUi[1].gameObject.transform.position += new Vector3(0, -150.23f, 0);
+        }
+        else
+        {
+            ELFinsertCoin.SetActive(true);
+            VALKinsertCoin.SetActive(false);
+        }
+
     }
 
     public void ShowTutorial(string message)
@@ -54,5 +75,23 @@ public class UIManager : MonoBehaviour
     {
         Healthb.text = playerhealth.getHealth().ToString();
         Scoreb.text = GameManager.Instance.score.ToString();
+    }
+    public void EvaluateKeys(int keyAmmount)
+    {
+        if (keyAmmount == 0)
+        {
+            keysUi[0].SetActive(false);
+            keysUi[1].SetActive(false);
+        }
+        else if (keyAmmount == 1)
+        {
+            keysUi[0].SetActive(true);
+            keysUi[1].SetActive(false);
+        }
+        else if (keyAmmount == 2)
+        {
+            keysUi[0].SetActive(true);
+            keysUi[1].SetActive(true);
+        }
     }
 }

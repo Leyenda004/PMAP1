@@ -8,11 +8,8 @@ public class PauseMenuManager : MonoBehaviour
 {
     [SerializeField] private GameObject resumeButton;
     [SerializeField] private GameObject pauseMenu;
-    [SerializeField] private GameObject ValkInsertCoin;
-    [SerializeField] private GameObject ElfInsertCoin;
     PlayerMovement playerscript;
     Gun gunscript;
-    bool IsValkChosen;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,9 +17,7 @@ public class PauseMenuManager : MonoBehaviour
         EventSystem.current.SetSelectedGameObject(resumeButton);
         playerscript = FindAnyObjectByType<PlayerMovement>();
         gunscript = playerscript.gameObject.GetComponentInChildren<Gun>();
-        IsValkChosen = GameManager.Instance.IsValkchosen;
-        if (IsValkChosen) ElfInsertCoin.SetActive(false);
-        else ValkInsertCoin.SetActive(false);
+
     }
 
     // Update is called once per frame
