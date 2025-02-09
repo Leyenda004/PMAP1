@@ -7,12 +7,17 @@ public class GameManager : MonoBehaviour
 {
     private float second = 0f; //para contar el tiempo y quitar 1 vida por segundo
     public int score;
-    public bool havingKey;
+    public int havingKey = 0;
     private bool firstEnemy;
     private static GameManager instance;
     private UIManager ui;
     public bool IsValkchosen;
     [SerializeField] public GameObject player;
+    [SerializeField] AudioClip tutorial;
+    [SerializeField] AudioClip key;
+    [SerializeField] AudioClip potion;
+    [SerializeField] AudioClip food;
+
 
     public static GameManager Instance { get { return instance; } }
 
@@ -42,9 +47,10 @@ public class GameManager : MonoBehaviour
 
     }
 
-    public void StartGame(UIManager uiscript)
+    public void StartGame(UIManager uiscript, GameObject jugador)
     {
         ui = uiscript;
+        player = jugador;
         firstEnemy = true;
         GameObject GOSelector = GameObject.FindGameObjectWithTag("CharSelection");
         IsValkchosen = GOSelector.name == "valkyrie";
@@ -90,31 +96,33 @@ public class GameManager : MonoBehaviour
     //suma 100 de vida si player colisiona con la comida
     public void FoodCollected()
     {
-       
+        ControladorSonido.Instance.ReproducirSonido(food);
         player.GetComponent<Health>().Heal(100);
 
     }
 
     public void PotionCollected()
     {
-       
+        ControladorSonido.Instance.ReproducirSonido(potion);
         player.GetComponent<Health>().Heal(50);
 
     }
-    public void SetKeyBool(bool value) // Activa o desactiva la boleana que indica si el jugador porta una llave
+    public void SetKeyValue(int value) // Activa o desactiva la boleana que indica si el jugador porta una llave
     {
 
         score += 50;
-        havingKey = value;
+        havingKey += value;
+        if (value > 0) ControladorSonido.Instance.ReproducirSonido(key);
     }
 
 
     public void CallTutorial(string message) //tutorial
     {
+        ControladorSonido.Instance.ReproducirSonido(tutorial);
         ui.ShowTutorial(message);
     }
 
-    // Update is called once per frame
+    
     private void Update()
     {
 

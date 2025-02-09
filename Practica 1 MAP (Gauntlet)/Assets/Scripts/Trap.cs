@@ -7,6 +7,7 @@ public class Trap : MonoBehaviour
     [SerializeField] private GameObject walls;
     [SerializeField] private GameObject walls_replacement;
     private bool firstTrap;
+    
 
     private void Start() 
     { 

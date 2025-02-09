@@ -5,10 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    // Start is called before the first frame update
+
+    [SerializeField] AudioClip NormalMainMenu;
+    [SerializeField] AudioClip MainMenuUponExit;
     void Start()
     {
-        
+        if (GameObject.FindAnyObjectByType<GameManager>() != null) ControladorSonido.Instance.ReproducirSonido(MainMenuUponExit);
+        else ControladorSonido.Instance.ReproducirSonido(NormalMainMenu);
     }
 
     // Update is called once per frame
@@ -20,6 +23,7 @@ public class MainMenu : MonoBehaviour
     
     public void CargarNivel(int levelindex)
     {
+        ControladorSonido.Instance.PararSonido();
         SceneManager.LoadScene(levelindex);
 
     }
