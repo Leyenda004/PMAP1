@@ -23,6 +23,8 @@ public class Bullet : MonoBehaviour
 
         if (other.gameObject.tag == "Enemy")
         {
+            GameManager.Instance.OnEnemyHarmed();
+
             if (other.gameObject.GetComponent<Enemy>() != null)
                 other.gameObject.GetComponent<Enemy>().Harm(bulletDamage);
             if (other.gameObject.GetComponent<Enemygosht>() != null)

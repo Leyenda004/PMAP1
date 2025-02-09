@@ -107,6 +107,11 @@ public class GameManager : MonoBehaviour
 
     }
 
+    public void OnEnemyHarmed()
+    {
+        score += 20;
+    }
+
     public void PotionCollected()
     {
         ControladorSonido.Instance.ReproducirSonido(potion);
