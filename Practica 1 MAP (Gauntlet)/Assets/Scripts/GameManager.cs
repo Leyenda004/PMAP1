@@ -52,6 +52,8 @@ public class GameManager : MonoBehaviour
 
     public void StartGame(UIManager uiscript, GameObject jugador)
     {
+        score = 0;
+        keyAmmount = 0;
         firstEnemy = true;
         firstKey = true;
         firstTrap = true;

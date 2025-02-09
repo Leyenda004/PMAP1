@@ -17,7 +17,6 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject screenTuto;
     [SerializeField] GameObject[] keysUi;
 
-    private int score;
     PlayerMovement playerscript;
     Gun gunscript;
 
@@ -25,7 +24,6 @@ public class UIManager : MonoBehaviour
     void Start()
     {
         playerhealth = FindObjectOfType<Health>();
-        score = GameManager.Instance.score;
         screenTuto.SetActive(false);
         //ESTO ES PARA EVITAR QUE EL JUGDOR PUEDA ALTERAR LOS SPRITES DE ORIENTACION MIENTRAS SE ENSEÑA EN TUTO
         playerscript = playerhealth.gameObject.GetComponent<PlayerMovement>();
