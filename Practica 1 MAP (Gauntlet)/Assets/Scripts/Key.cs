@@ -6,6 +6,8 @@ public class Key : MonoBehaviour
 {
 
     private bool firstKey; //para el tutorial
+    [SerializeField] private AudioClip gettingkey;
+    [SerializeField] private AudioClip tutorialPlaceHolder; //placeHolder
 
     private void Start()
     {
@@ -16,11 +18,13 @@ public class Key : MonoBehaviour
     {
         if (collision.gameObject.GetComponent<PlayerMovement>() != null)
         {
+            ControladorSonido.Instance.ReproducirSonido(gettingkey);
             GameManager.Instance.SetKeyBool(true); 
             Destroy(gameObject);
 
             if (firstKey) //tutorial llave
             {
+                ControladorSonido.Instance.ReproducirSonido(tutorialPlaceHolder);
                 GameManager.Instance.CallTutorial("Save keys to open doors or treasures");
                 firstKey = false;
             }

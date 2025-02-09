@@ -13,8 +13,9 @@ public class Gun : MonoBehaviour
     [SerializeField] Bullet ValkbulletPrefab;
     [SerializeField] Bullet ElfbulletPrefab;
     Bullet FinalbulletPrefab;
-    [SerializeField] float fireRate = 0.15f;
+    [SerializeField] float fireRate = 0.05f;
     [SerializeField] float bulletSpeed = 15f;
+    [SerializeField] AudioClip throwvfx;
     // Start is called before the first frame update
     void Start()
     {
@@ -43,12 +44,14 @@ public class Gun : MonoBehaviour
     void Shoot(){
         if (Time.time > nextFireTime)
         {
+            ControladorSonido.Instance.ReproducirSonido(throwvfx);
             Vector2 lastDir = parent.GetComponent<PlayerMovement>().getLastDir();
             Quaternion angulito = Quaternion.LookRotation(Vector3.forward, lastDir);
             firePoint = (Vector2)parent.transform.position + lastDir/lastDir.magnitude;
 
 
             Bullet newBullet = Instantiate(FinalbulletPrefab, firePoint, Quaternion.LookRotation(Vector3.forward, lastDir));
+            
             newBullet.Init(bulletSpeed);
             
             nextFireTime = Time.time + fireRate;

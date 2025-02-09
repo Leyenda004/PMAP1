@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     private bool firstEnemy;
     private static GameManager instance;
     private UIManager ui;
+    public bool IsValkchosen;
     [SerializeField] public GameObject player;
 
     public static GameManager Instance { get { return instance; } }
@@ -45,7 +46,7 @@ public class GameManager : MonoBehaviour
         ui = uiscript;
         firstEnemy = true;
         GameObject GOSelector = GameObject.FindGameObjectWithTag("CharSelection");
-        bool IsValkchosen = GOSelector.name == "valkyrie";
+        IsValkchosen = GOSelector.name == "valkyrie";
         Debug.Log(IsValkchosen);
         player.GetComponentInChildren<Animator>().SetBool("IsValkChosen", IsValkchosen);
         player.GetComponentInChildren<Gun>().bulletSkin(IsValkchosen);

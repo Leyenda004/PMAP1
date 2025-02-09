@@ -12,6 +12,8 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject screenTuto;
 
     private int score;
+    PlayerMovement playerscript;
+    Gun gunscript;
 
     // Start is called before the first frame update
     void Start()
@@ -20,13 +22,20 @@ public class UIManager : MonoBehaviour
         score = GameManager.Instance.score;
         screenTuto.SetActive(false);
         GameManager.Instance.StartGame(this);
+
+        //ESTO ES PARA EVITAR QUE EL JUGDOR PUEDA ALTERAR LOS SPRITES DE ORIENTACION MIENTRAS SE ENSEÑA EN TUTO
+        playerscript = FindAnyObjectByType<PlayerMovement>();
+        gunscript = playerscript.gameObject.GetComponentInChildren<Gun>();
     }
 
     public void ShowTutorial(string message)
     {
         screenTuto.SetActive(true);
         Tutorial.text = message;
+        playerscript.enabled = false;
+        gunscript.enabled = false;
         Time.timeScale = 0;
+        
         StartCoroutine(HideTutorial());
     }
 
@@ -35,6 +44,8 @@ public class UIManager : MonoBehaviour
         yield return new WaitForSecondsRealtime(2f);
         screenTuto.SetActive(false);
         Time.timeScale = 1;
+        playerscript.enabled = true;
+        gunscript.enabled = true;
     }
 
     // Update is called once per frame
