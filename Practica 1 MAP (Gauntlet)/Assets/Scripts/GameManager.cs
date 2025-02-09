@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     private bool firstEnemy;
     public bool firstKey;
     public bool firstTrap;
+    public bool canShoot = true;
     private static GameManager instance;
     private UIManager ui;
     public bool IsValkchosen;

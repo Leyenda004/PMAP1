@@ -37,8 +37,8 @@ public class UIManager : MonoBehaviour
             Scoreb = ELFScoreb;
             VALKinsertCoin.SetActive(true);
             ELFinsertCoin.SetActive(false);
-            keysUi[0].gameObject.transform.position += new Vector3(0, -150.23f, 0);
-            keysUi[1].gameObject.transform.position += new Vector3(0, -150.23f, 0);
+            keysUi[0].gameObject.transform.position += new Vector3(0, -355f, 0);
+            keysUi[1].gameObject.transform.position += new Vector3(0, -355f, 0);
         }
         else
         {

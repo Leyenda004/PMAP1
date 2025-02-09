@@ -16,6 +16,7 @@ public class Gun : MonoBehaviour
     [SerializeField] float fireRate = 0.05f;
     [SerializeField] float bulletSpeed = 15f;
     [SerializeField] AudioClip throwvfx;
+    bool canShoot = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -42,19 +43,19 @@ public class Gun : MonoBehaviour
 
     float nextFireTime;
     void Shoot(){
-        if (Time.time > nextFireTime)
+        if (GameManager.Instance.canShoot)
         {
             ControladorSonido.Instance.ReproducirSonido(throwvfx);
             Vector2 lastDir = parent.GetComponent<PlayerMovement>().getLastDir();
             Quaternion angulito = Quaternion.LookRotation(Vector3.forward, lastDir);
             firePoint = (Vector2)parent.transform.position + lastDir/lastDir.magnitude;
 
-
+            GameManager.Instance.canShoot = false;
             Bullet newBullet = Instantiate(FinalbulletPrefab, firePoint, Quaternion.LookRotation(Vector3.forward, lastDir));
             
             newBullet.Init(bulletSpeed);
             
-            nextFireTime = Time.time + fireRate;
+           
         }
     }
 }

@@ -33,7 +33,7 @@ public class Health : MonoBehaviour
         {
             health = 0;
             Time.timeScale = 1;
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(0);
             
         }
     }

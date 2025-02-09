@@ -33,6 +33,7 @@ public class Bullet : MonoBehaviour
                 other.gameObject.GetComponent<Enemy2>().Harm(bulletDamage);
             //Debug.Log("Enemy Health: " + other.gameObject.GetComponent<Enemy>().getHealth());
         }
+        GameManager.Instance.canShoot = true;
         Destroy(gameObject);
     }
 }
