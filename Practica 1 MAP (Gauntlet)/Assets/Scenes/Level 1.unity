@@ -20188,6 +20188,10 @@ PrefabInstance:
       propertyPath: enemy
       value: 
       objectReference: {fileID: 3985025988747078589, guid: 85e2e60771b3d9a428bee7dffa0aac81, type: 3}
+    - target: {fileID: 8283783816409613421, guid: 878dcd0a40e86054e90ba32105f299e0, type: 3}
+      propertyPath: enemyRate
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22382,6 +22386,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 3985025988747078589, guid: 7f5af2db9c06ed04e93495b59233326c, type: 3}
     - target: {fileID: 8283783816409613421, guid: 878dcd0a40e86054e90ba32105f299e0, type: 3}
+      propertyPath: enemyRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8283783816409613421, guid: 878dcd0a40e86054e90ba32105f299e0, type: 3}
       propertyPath: ColScripts.Array.size
       value: 5
       objectReference: {fileID: 0}
@@ -23052,6 +23060,10 @@ PrefabInstance:
       propertyPath: enemy
       value: 
       objectReference: {fileID: 3985025988747078589, guid: 85e2e60771b3d9a428bee7dffa0aac81, type: 3}
+    - target: {fileID: 8283783816409613421, guid: 878dcd0a40e86054e90ba32105f299e0, type: 3}
+      propertyPath: enemyRate
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27236,6 +27248,10 @@ PrefabInstance:
       propertyPath: enemy
       value: 
       objectReference: {fileID: 3985025988747078589, guid: 7f5af2db9c06ed04e93495b59233326c, type: 3}
+    - target: {fileID: 8283783816409613421, guid: 878dcd0a40e86054e90ba32105f299e0, type: 3}
+      propertyPath: enemyRate
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 8283783816409613421, guid: 878dcd0a40e86054e90ba32105f299e0, type: 3}
       propertyPath: onCollider
       value: 1
