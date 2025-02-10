@@ -58,6 +58,7 @@ public class GameManager : MonoBehaviour
         firstEnemy = true;
         firstKey = true;
         firstTrap = true;
+        canShoot = true;
         ui = uiscript;
         player = jugador;
         firstEnemy = true;
