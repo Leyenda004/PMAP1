@@ -12,6 +12,8 @@ public class Health : MonoBehaviour
     [SerializeField] private int health; //pierde 7 de vida cuando le pega un enemigo y cuando evita un enemigo que ha aparecido en pantalla, as� que si no se pega con los enemigos tambi�n pierde vid
     GameManager gameManager;
     public int getHealth() { return health; }
+    
+
 
     // Start is called before the first frame update
     void Start()
@@ -47,7 +49,7 @@ public class Health : MonoBehaviour
 
     public void IniHealth()
     {
-        health = 700;
+        health = 750;
     }
 
     public void Heal(int healthadded)

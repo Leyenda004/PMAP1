@@ -749,7 +749,7 @@ MonoBehaviour:
   - {fileID: 6354929812839537990}
   - {fileID: 1528548767735090105}
   enemy: {fileID: 713901215440868381, guid: bffe6e31e238f724dbf5d6448883b20f, type: 3}
-  enemyRate: 7
+  enemyRate: 3
   onCollider: 0
 --- !u!61 &689989733343130079
 BoxCollider2D:

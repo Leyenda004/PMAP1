@@ -15,12 +15,18 @@ public class Exit : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision) // Trigger evita que el jugador se choque con el interactuable
     {
-        if (collision.gameObject.GetComponent<PlayerMovement>() != null)
+        PlayerMovement playerMovement = collision.gameObject.GetComponent<PlayerMovement>();
+        if (playerMovement != null)
         {
             ControladorSonido.Instance.ReproducirSonido(exit);
             animator.SetTrigger("Exit");
+            playerMovement.DisableMovement();
             StartCoroutine(ExitDelay());
 
+        }
+        else
+        {
+            Debug.LogError("PlayerMovement no encontrado en el objeto colisionado.");
         }
 
     }

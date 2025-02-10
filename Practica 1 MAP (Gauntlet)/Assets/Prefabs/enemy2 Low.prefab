@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3786016312657122072}
   - component: {fileID: 5767509427241103401}
   m_Layer: 9
-  m_Name: enemy2
+  m_Name: enemy2 Low
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fff854f35b3d1c47a65e5c4187330b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 15
+  health: 5
   speed: 5
   damage: 100
 --- !u!95 &5767509427241103401

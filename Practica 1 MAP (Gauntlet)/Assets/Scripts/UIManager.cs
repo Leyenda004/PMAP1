@@ -25,7 +25,7 @@ public class UIManager : MonoBehaviour
     {
         playerhealth = FindObjectOfType<Health>();
         screenTuto.SetActive(false);
-        //ESTO ES PARA EVITAR QUE EL JUGDOR PUEDA ALTERAR LOS SPRITES DE ORIENTACION MIENTRAS SE ENSEÑA EN TUTO
+        //ESTO ES PARA EVITAR QUE EL JUGDOR PUEDA ALTERAR LOS SPRITES DE ORIENTACION MIENTRAS SE ENSEï¿½A EN TUTO
         playerscript = playerhealth.gameObject.GetComponent<PlayerMovement>();
         gunscript = playerscript.gameObject.GetComponentInChildren<Gun>();
         EvaluateKeys(0);

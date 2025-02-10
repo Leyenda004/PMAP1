@@ -110,6 +110,13 @@ public class GameManager : MonoBehaviour
 
     }
 
+    public void DebugFoodCollected()
+    {
+        ControladorSonido.Instance.ReproducirSonido(food);
+        player.GetComponent<Health>().Heal(7000);
+
+    }
+
     public void OnEnemyHarmed()
     {
         score += 20;
