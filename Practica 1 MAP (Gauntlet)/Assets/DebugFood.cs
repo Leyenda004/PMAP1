@@ -8,7 +8,7 @@ public class DebugFood : MonoBehaviour
 
     void Start()
     {
-        debugFood.SetActive(false);
+        //debugFood.SetActive(false);
     }
     
     private void OnTriggerEnter2D(Collider2D collision)
