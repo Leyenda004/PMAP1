@@ -5,13 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class Exit : MonoBehaviour
 {
-    [SerializeField] private GameObject playerAnim;
+    [SerializeField] private GameObject player;
     private Animator animator;
-    [SerializeField]  AudioClip exit;
+    [SerializeField] AudioClip exit;
 
     void Start()
     {
-        animator = playerAnim.GetComponent<Animator>();
+        animator = player.GetComponentInChildren<Animator>();
     }
     private void OnTriggerEnter2D(Collider2D collision) // Trigger evita que el jugador se choque con el interactuable
     {
@@ -20,9 +20,11 @@ public class Exit : MonoBehaviour
         {
             ControladorSonido.Instance.ReproducirSonido(exit);
             animator.SetTrigger("Exit");
-            playerMovement.DisableMovement();
-            StartCoroutine(ExitDelay());
 
+            playerMovement.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            playerMovement.DisableMovement();
+
+            StartCoroutine(ExitDelay());
         }
         else
         {
@@ -33,10 +35,22 @@ public class Exit : MonoBehaviour
 
     private IEnumerator ExitDelay()
     {
+
+        // Hecho con IA y modificado para que el jugador se mueva hacia la salida
+        Vector3 startPosition = player.transform.position;
+        Vector3 endPosition = new Vector3 (transform.position.x + GetComponent<BoxCollider2D>().offset.x, transform.position.y + GetComponent<BoxCollider2D>().offset.y, 0);
+        float elapsedTime = 0f;
+        float duration = 0.35f; // Duration of the movement
+
+        while (elapsedTime < duration)
+        {
+            player.transform.position = Vector3.Lerp(startPosition, endPosition, elapsedTime / duration);
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+        player.transform.position = endPosition;
         
         yield return new WaitForSeconds(1f);
         SceneManager.LoadScene("Menu");
-
     }
-
 }

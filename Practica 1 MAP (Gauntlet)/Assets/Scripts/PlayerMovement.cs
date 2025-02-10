@@ -31,8 +31,12 @@ public class PlayerMovement : MonoBehaviour
     {
         if (canMove && !shooting)
         { 
-        dir = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        rb.velocity = dir * playerSpeed;
+            dir = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+
+            if (Mathf.Abs(dir.x) < 0.25) { dir.Set(0, dir.y); }
+            if (Mathf.Abs(dir.y) < 0.25) { dir.Set(dir.x, 0); }
+            
+            rb.velocity = dir * playerSpeed;
         }
         float magnitud = dir.magnitude;
         //establece la última dirección en la que se movió el jugador (distinta de 0)
