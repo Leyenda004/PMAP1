@@ -717,7 +717,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.77
-  m_Text: "\"A\" o \"D\" / \"Izquierda\" o \"Derecha\" \npara seleccionar personaje"
+  m_Text: "\"A\" o \"D\" / \"Izquierda\" o \"Derecha\" \npara seleccionar personaje
+    y pulsa espacio (teclado) o a (mando)"
 --- !u!222 &1599066728
 CanvasRenderer:
   m_ObjectHideFlags: 0
