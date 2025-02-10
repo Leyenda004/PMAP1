@@ -34,9 +34,11 @@ public class Health : MonoBehaviour
         if (health <= 0)
         {
             health = 0;
+            GameManager.Instance.Death();
+            /*
             Time.timeScale = 1;
             SceneManager.LoadScene(0);
-            
+            */
         }
     }
 
