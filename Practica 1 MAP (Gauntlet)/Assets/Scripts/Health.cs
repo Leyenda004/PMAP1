@@ -40,6 +40,14 @@ public class Health : MonoBehaviour
             SceneManager.LoadScene(0);
             */
         }
+
+        if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift))
+        {
+            if (gameManager.player != null)
+            {
+                Heal(750);
+            }
+        }
     }
 
     public void Harm(int damage)

@@ -10,7 +10,6 @@ public class PlayerMovement : MonoBehaviour
     private Animator animator;
     [SerializeField] private float playerSpeed = 7; // Variar desde la interfaz de Unity
     Rigidbody2D rb;
-    bool shooting = false;
     bool canMove = true;
     Vector2 dir { get; set; }
     Vector2 lastDir { get; set; }
@@ -29,7 +28,7 @@ public class PlayerMovement : MonoBehaviour
     }
     void Update()
     {
-        if (canMove && !shooting)
+        if (canMove)
         { 
             dir = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 
