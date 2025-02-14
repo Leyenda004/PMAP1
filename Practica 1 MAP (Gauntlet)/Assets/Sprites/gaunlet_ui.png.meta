@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 89bbc7b60fb2c814b88145b016db4998
+guid: b24d34d5bb6342741a74bf35969361cd
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,64 +97,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gaunlet_ui_0
+      name: gaunlet_ui 1_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 0
-        width: 408.66666
-        height: 993
+        x: 0
+        y: 794.4
+        width: 409.33334
+        height: 198.6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b29b11129281ea74cab2d07a80f81590
-      internalID: 1371677682
+      spriteID: cb431a86749346941b2d422edf4a4146
+      internalID: 1258924443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gaunlet_ui_1
+      name: gaunlet_ui 1_1
       rect:
         serializedVersion: 2
-        x: 410
-        y: 0
-        width: 406
-        height: 993
+        x: 409
+        y: 794.4
+        width: 409.33334
+        height: 198.6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6290b31878e0c740be32a466dbaaa89
-      internalID: 384497250
+      spriteID: 6716d49b8f299e64ebf880470e0a9240
+      internalID: 1092340176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gaunlet_ui_2
+      name: gaunlet_ui 1_2
       rect:
         serializedVersion: 2
-        x: 816
+        x: 818
+        y: 794.4
+        width: 409.33334
+        height: 198.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d961e0b4aa7220849969099a45117d2c
+      internalID: 1261311362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gaunlet_ui 1_5
+      rect:
+        serializedVersion: 2
+        x: 818
         y: 0
         width: 409
-        height: 993
+        height: 795
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6036720c82f26f148b7f9a061fb25d18
-      internalID: 564133231
+      spriteID: cbd151dbb2d221541b0a6047dfdeb102
+      internalID: 9513023
       vertices: []
       indices: 
       edges: []
@@ -170,9 +191,21 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      gaunlet_ui_0: 1371677682
-      gaunlet_ui_1: 384497250
-      gaunlet_ui_2: 564133231
+      gaunlet_ui 1_0: 1258924443
+      gaunlet_ui 1_1: 1092340176
+      gaunlet_ui 1_10: 454023846
+      gaunlet_ui 1_11: -757767000
+      gaunlet_ui 1_12: -2024799131
+      gaunlet_ui 1_13: 52266777
+      gaunlet_ui 1_14: 499068194
+      gaunlet_ui 1_2: 1261311362
+      gaunlet_ui 1_3: 113865099
+      gaunlet_ui 1_4: -336369389
+      gaunlet_ui 1_5: 9513023
+      gaunlet_ui 1_6: -1023961161
+      gaunlet_ui 1_7: 592870682
+      gaunlet_ui 1_8: 1779908238
+      gaunlet_ui 1_9: -1033454878
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

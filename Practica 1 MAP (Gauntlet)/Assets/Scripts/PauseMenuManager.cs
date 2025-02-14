@@ -25,6 +25,7 @@ public class PauseMenuManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
+            EventSystem.current.SetSelectedGameObject(resumeButton);
             pauseMenu.SetActive(true);
             Time.timeScale = 0;
             playerscript.enabled = false;

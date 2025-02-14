@@ -67,6 +67,23 @@ public class Enemygosht : MonoBehaviour
             health.Harm(damage);
             Destroy(gameObject);
         }
+        /*
+        else //bugfix enemigos que traspasan muros
+        {
+            Rigidbody rb = collision.gameObject.GetComponent<Rigidbody>();
+
+            // Si el objeto contra el que chocó es estático o kinematic, activar isKinematic
+            if (rb != null && (rb.isKinematic || collision.gameObject.isStatic))
+            {
+                GetComponent<Rigidbody>().isKinematic = true;
+            }
+        }
+        */
     }
 
+    /*private void OnCollisionExit2D(Collision2D collision) //bugfix enemigos que traspasan muros
+    {
+        GetComponent<Rigidbody>().isKinematic = false;
+    }
+    */
 }

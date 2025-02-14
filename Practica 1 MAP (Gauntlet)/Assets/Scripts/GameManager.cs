@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class GameManager : MonoBehaviour
@@ -8,9 +9,9 @@ public class GameManager : MonoBehaviour
     private float second = 0f; //para contar el tiempo y quitar 1 vida por segundo
     public int score;
     public int keyAmmount = 0;
-    private bool firstEnemy;
     public bool firstKey;
     public bool firstTrap;
+    public bool canShoot = true;
     private static GameManager instance;
     private UIManager ui;
     public bool IsValkchosen;
@@ -19,6 +20,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] AudioClip key;
     [SerializeField] AudioClip potion;
     [SerializeField] AudioClip food;
+    [SerializeField] AudioClip defeat;
     [SerializeField] UIkeyBehaviour UIkeyScript;
 
 
@@ -54,19 +56,17 @@ public class GameManager : MonoBehaviour
     {
         score = 0;
         keyAmmount = 0;
-        firstEnemy = true;
         firstKey = true;
         firstTrap = true;
+        canShoot = true;
         ui = uiscript;
         player = jugador;
-        firstEnemy = true;
         GameObject GOSelector = GameObject.FindGameObjectWithTag("CharSelection");
         IsValkchosen = GOSelector.name == "valkyrie";
         Debug.Log(IsValkchosen);
         player.GetComponentInChildren<Animator>().SetBool("IsValkChosen", IsValkchosen);
         player.GetComponentInChildren<Gun>().bulletSkin(IsValkchosen);
         //Destroy(GOSelector);
-
     }
     
     public void CharSelection(string selection)
@@ -83,18 +83,6 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    //Quita 7 de vida si el player colisiona con el enemigo
-    public void EnemyDamage() 
-    {
-        player.GetComponent<Health>().Harm(7);
-
-        if (firstEnemy)
-        {
-            CallTutorial("Shoot or avoid ghosts player loses 7 health");
-            firstEnemy = false;
-        }
-    }
-
     public void TreasureCollected()
     {
         score += 50;
@@ -106,6 +94,13 @@ public class GameManager : MonoBehaviour
     {
         ControladorSonido.Instance.ReproducirSonido(food);
         player.GetComponent<Health>().Heal(100);
+
+    }
+
+    public void DebugFoodCollected()
+    {
+        ControladorSonido.Instance.ReproducirSonido(food);
+        player.GetComponent<Health>().Heal(7000);
 
     }
 
@@ -136,7 +131,20 @@ public class GameManager : MonoBehaviour
         ui.ShowTutorial(message);
     }
 
-    
+    public void Death() //llamo al IEnumerator desde aquí porque desde otro script no me deja
+    {
+        StartCoroutine(PlayerDefeat());
+    }
+    public IEnumerator PlayerDefeat() //Derrota jugador
+    {
+        Destroy(player);
+        ControladorSonido.Instance.ReproducirSonido(defeat);
+        yield return new WaitForSecondsRealtime(2f);
+        SceneManager.LoadScene(0);
+    }
+
+
+
     private void Update()
     {
 

@@ -11,6 +11,9 @@ public class Spawner : MonoBehaviour
 
     [SerializeField]
     private GameObject enemy;
+    [SerializeField] float enemyRate;
+    float nextEnemySpawn = 0;
+    [SerializeField] public bool onCollider = false;
 
     struct AvilableSpawnPlaces 
     {
@@ -28,16 +31,17 @@ public class Spawner : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P)) 
+        if (onCollider && Time.time > nextEnemySpawn && enemy != null)
         {
-            
-            TrySpawnEnemy(enemy, 1,3);//solo se puede llamar una vez por frame.
-            
-
+            TrySpawnEnemy(enemy, 1, 1);//solo se puede llamar una vez por frame.
+            nextEnemySpawn = Time.time + enemyRate;
         }
-        //poner que si está fuera de la cámara o de cierto rango, no haya spawn.
-        
     }
+    
+
+    //poner que si está fuera de la cámara o de cierto rango, no haya spawn.
+
+
 
     //solo se puede llamar una vez por frame
     private void TrySpawnEnemy(GameObject enemy, int lvl, int amount)
