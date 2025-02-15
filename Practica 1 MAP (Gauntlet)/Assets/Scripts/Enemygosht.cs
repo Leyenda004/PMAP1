@@ -7,6 +7,7 @@ public class Enemygosht : MonoBehaviour
 {
     float attackRate = 1.5f;
     [SerializeField] int health = 10;
+    [SerializeField] int maxHealthThisEnemyType;
     [SerializeField] float speed;
     [SerializeField] int damage;
 
@@ -22,10 +23,16 @@ public class Enemygosht : MonoBehaviour
     public void Harm(int damage)
     {
         health -= damage;
-        Color c = sr.color;
-        c.a /= 3;  // Divide la opacidad por 3
-        sr.color = c;
+        changeOpacity(health);
         if (health <= 0) { Destroy(gameObject); }
+    }
+
+    private void changeOpacity(int health)
+    {
+        Color c = sr.color;
+        c.a = health / maxHealthThisEnemyType;  // Divide la opacidad por 3
+        sr.color = c;
+
     }
 
     // Start is called before the first frame update
