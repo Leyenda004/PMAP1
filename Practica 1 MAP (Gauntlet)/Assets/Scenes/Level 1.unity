@@ -3382,7 +3382,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.29821, y: -11.5, z: -10}
+  m_LocalPosition: {x: 8.29711, y: -11.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3986,7 +3986,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ValkbulletPrefab: {fileID: 8728633517325471447, guid: b6c6360808f007b4893ee343b2a3c0bd, type: 3}
   ElfbulletPrefab: {fileID: 8728633517325471447, guid: 80b88f95f55b92542831d22dd846772f, type: 3}
-  fireRate: 1.5
+  fireRate: 0.2
   bulletSpeed: 15
   throwvfx: {fileID: 8300000, guid: fcfe7f646fb95b64db40141c369d6e8b, type: 3}
 --- !u!1 &667053004
@@ -20671,7 +20671,7 @@ PrefabInstance:
       objectReference: {fileID: 3985025988747078589, guid: 85e2e60771b3d9a428bee7dffa0aac81, type: 3}
     - target: {fileID: 8283783816409613421, guid: 878dcd0a40e86054e90ba32105f299e0, type: 3}
       propertyPath: enemyRate
-      value: 8
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23603,7 +23603,7 @@ PrefabInstance:
       objectReference: {fileID: 3985025988747078589, guid: 85e2e60771b3d9a428bee7dffa0aac81, type: 3}
     - target: {fileID: 8283783816409613421, guid: 878dcd0a40e86054e90ba32105f299e0, type: 3}
       propertyPath: enemyRate
-      value: 8
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27054,6 +27054,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8283783816409613421, guid: 878dcd0a40e86054e90ba32105f299e0, type: 3}
+      propertyPath: enemyRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8283783816409613421, guid: 878dcd0a40e86054e90ba32105f299e0, type: 3}
       propertyPath: ColScripts.Array.size
       value: 5
       objectReference: {fileID: 0}
@@ -27965,6 +27969,10 @@ PrefabInstance:
     - target: {fileID: 8283783816409613421, guid: 878dcd0a40e86054e90ba32105f299e0, type: 3}
       propertyPath: enemy
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8283783816409613421, guid: 878dcd0a40e86054e90ba32105f299e0, type: 3}
+      propertyPath: enemyRate
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8283783816409613421, guid: 878dcd0a40e86054e90ba32105f299e0, type: 3}
       propertyPath: ColScripts.Array.size
