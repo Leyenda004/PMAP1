@@ -13,6 +13,7 @@ public class Gun : MonoBehaviour
     [SerializeField] Bullet ValkbulletPrefab;
     [SerializeField] Bullet ElfbulletPrefab;
     Bullet FinalbulletPrefab;
+    Bullet newBullet;
     [SerializeField] float fireRate = 0.05f;
     [SerializeField] float bulletSpeed = 15f;
     [SerializeField] AudioClip throwvfx;
@@ -21,8 +22,6 @@ public class Gun : MonoBehaviour
     void Start()
     {
         parent = transform.parent.gameObject;
-
-       
     }
     public void bulletSkin(bool isValkChosen)
     {
@@ -33,7 +32,7 @@ public class Gun : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.DrawLine(firePoint, firePoint + Vector2.up * 0.1f, Color.red, 0.1f);
+        Debug.DrawLine(firePoint, firePoint + Vector2.up * 10f, Color.red, 0.1f);
 
         if (Input.GetButtonDown("Fire1"))
         {
@@ -42,7 +41,7 @@ public class Gun : MonoBehaviour
     }
 
     float nextFireTime;
-    void Shoot(){
+    public void Shoot(){
         if (GameManager.Instance.canShoot)
         {
             ControladorSonido.Instance.ReproducirSonido(throwvfx);
@@ -50,12 +49,10 @@ public class Gun : MonoBehaviour
             Quaternion angulito = Quaternion.LookRotation(Vector3.forward, lastDir);
             firePoint = (Vector2)parent.transform.position + lastDir/lastDir.magnitude;
 
+            newBullet = Instantiate(FinalbulletPrefab, firePoint, Quaternion.LookRotation(Vector3.forward, lastDir));
             GameManager.Instance.canShoot = false;
-            Bullet newBullet = Instantiate(FinalbulletPrefab, firePoint, Quaternion.LookRotation(Vector3.forward, lastDir));
-            
             newBullet.Init(bulletSpeed);
-            
-           
         }
+        
     }
 }
