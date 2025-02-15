@@ -7,7 +7,7 @@ public class Enemygosht : MonoBehaviour
 {
     float attackRate = 1.5f;
     [SerializeField] int health = 10;
-    [SerializeField] int maxHealthThisEnemyType;
+    [SerializeField] float maxHealthThisEnemyType;
     [SerializeField] float speed;
     [SerializeField] int damage;
 
@@ -23,14 +23,14 @@ public class Enemygosht : MonoBehaviour
     public void Harm(int damage)
     {
         health -= damage;
-        changeOpacity(health);
+        changeOpacity();
         if (health <= 0) { Destroy(gameObject); }
     }
 
-    private void changeOpacity(int health)
+    private void changeOpacity()
     {
         Color c = sr.color;
-        c.a = health / maxHealthThisEnemyType;  // Divide la opacidad por 3
+        c.a = health / maxHealthThisEnemyType;  // opacidad = vida/vidaMaxEsteTipoDeEnemigos
         sr.color = c;
 
     }
@@ -43,6 +43,7 @@ public class Enemygosht : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
+        changeOpacity();
     }
 
     // Update is called once per frame
