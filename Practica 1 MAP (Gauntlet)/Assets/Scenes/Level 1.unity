@@ -3377,7 +3377,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.29821, y: -11.5, z: -10}
+  m_LocalPosition: {x: 8.3002, y: -11.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -24992,7 +24992,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: PRESS SHIFT FOR 750H
+  m_Text: PRESS ENTER FOR 750H
 --- !u!222 &1566331568
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -27035,7 +27035,7 @@ PrefabInstance:
     - target: {fileID: 8283783816409613421, guid: 878dcd0a40e86054e90ba32105f299e0, type: 3}
       propertyPath: enemy
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1940370310}
     - target: {fileID: 8283783816409613421, guid: 878dcd0a40e86054e90ba32105f299e0, type: 3}
       propertyPath: ColScripts.Array.size
       value: 5
@@ -27273,6 +27273,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd1afef4059aab641b2be78b05edfa0d, type: 3}
+--- !u!1 &1940370310 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4507022976611023191, guid: bd1afef4059aab641b2be78b05edfa0d, type: 3}
+  m_PrefabInstance: {fileID: 1940370309}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1958807653
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27951,7 +27956,7 @@ PrefabInstance:
     - target: {fileID: 8283783816409613421, guid: 878dcd0a40e86054e90ba32105f299e0, type: 3}
       propertyPath: enemy
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1940370310}
     - target: {fileID: 8283783816409613421, guid: 878dcd0a40e86054e90ba32105f299e0, type: 3}
       propertyPath: ColScripts.Array.size
       value: 5
