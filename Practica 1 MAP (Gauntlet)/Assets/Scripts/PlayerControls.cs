@@ -35,6 +35,15 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Disparo"",
+                    ""type"": ""Button"",
+                    ""id"": ""a27ca5f8-ba88-4897-acc4-eadd5fe92d78"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -114,6 +123,28 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""action"": ""Movimiento"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""3662456f-8276-464a-97e9-14d28f467c72"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Disparo"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""4125fa46-3e01-4072-b16e-0167c3904b7a"",
+                    ""path"": ""<Gamepad>/buttonSouth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""Disparo"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -146,6 +177,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         // Controles
         m_Controles = asset.FindActionMap("Controles", throwIfNotFound: true);
         m_Controles_Movimiento = m_Controles.FindAction("Movimiento", throwIfNotFound: true);
+        m_Controles_Disparo = m_Controles.FindAction("Disparo", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -208,11 +240,13 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
     private readonly InputActionMap m_Controles;
     private List<IControlesActions> m_ControlesActionsCallbackInterfaces = new List<IControlesActions>();
     private readonly InputAction m_Controles_Movimiento;
+    private readonly InputAction m_Controles_Disparo;
     public struct ControlesActions
     {
         private @PlayerControls m_Wrapper;
         public ControlesActions(@PlayerControls wrapper) { m_Wrapper = wrapper; }
         public InputAction @Movimiento => m_Wrapper.m_Controles_Movimiento;
+        public InputAction @Disparo => m_Wrapper.m_Controles_Disparo;
         public InputActionMap Get() { return m_Wrapper.m_Controles; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -225,6 +259,9 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             @Movimiento.started += instance.OnMovimiento;
             @Movimiento.performed += instance.OnMovimiento;
             @Movimiento.canceled += instance.OnMovimiento;
+            @Disparo.started += instance.OnDisparo;
+            @Disparo.performed += instance.OnDisparo;
+            @Disparo.canceled += instance.OnDisparo;
         }
 
         private void UnregisterCallbacks(IControlesActions instance)
@@ -232,6 +269,9 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             @Movimiento.started -= instance.OnMovimiento;
             @Movimiento.performed -= instance.OnMovimiento;
             @Movimiento.canceled -= instance.OnMovimiento;
+            @Disparo.started -= instance.OnDisparo;
+            @Disparo.performed -= instance.OnDisparo;
+            @Disparo.canceled -= instance.OnDisparo;
         }
 
         public void RemoveCallbacks(IControlesActions instance)
@@ -270,5 +310,6 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
     public interface IControlesActions
     {
         void OnMovimiento(InputAction.CallbackContext context);
+        void OnDisparo(InputAction.CallbackContext context);
     }
 }
