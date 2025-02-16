@@ -76,7 +76,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.9, y: 0.9}
+  m_Size: {x: 0.6, y: 0.6}
   m_EdgeRadius: 0
 --- !u!114 &3364583672555838494
 MonoBehaviour:
@@ -166,7 +166,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.9, y: 0.9}
+  m_Size: {x: 0.6, y: 0.6}
   m_EdgeRadius: 0
 --- !u!114 &7416656028332847411
 MonoBehaviour:
@@ -256,7 +256,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.9, y: 0.9}
+  m_Size: {x: 0.6, y: 0.6}
   m_EdgeRadius: 0
 --- !u!114 &3786416056190182237
 MonoBehaviour:
@@ -346,7 +346,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.9, y: 0.9}
+  m_Size: {x: 0.6, y: 0.6}
   m_EdgeRadius: 0
 --- !u!114 &6354929812839537990
 MonoBehaviour:
@@ -436,7 +436,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 20, y: 20}
+  m_Size: {x: 25, y: 25}
   m_EdgeRadius: 0
 --- !u!114 &1943985105338346591
 MonoBehaviour:
@@ -527,7 +527,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.9, y: 0.9}
+  m_Size: {x: 0.6, y: 0.6}
   m_EdgeRadius: 0
 --- !u!114 &184852454168163153
 MonoBehaviour:
@@ -617,7 +617,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.9, y: 0.9}
+  m_Size: {x: 0.6, y: 0.6}
   m_EdgeRadius: 0
 --- !u!114 &4245732895343522255
 MonoBehaviour:
@@ -642,8 +642,9 @@ GameObject:
   - component: {fileID: 7077607634747457326}
   - component: {fileID: 7621775236155138270}
   - component: {fileID: 8283783816409613421}
-  - component: {fileID: 689989733343130079}
   - component: {fileID: 6930808142145217631}
+  - component: {fileID: 2297029792341958904}
+  - component: {fileID: 5291204951590957817}
   m_Layer: 0
   m_Name: Spawner
   m_TagString: Untagged
@@ -752,8 +753,32 @@ MonoBehaviour:
   enemyRate: 2
   onCollider: 0
   enemyRndAmount: 00000000010000000100000001000000010000000200000002000000020000000200000003000000
---- !u!61 &689989733343130079
-BoxCollider2D:
+--- !u!114 &6930808142145217631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8185017134018563224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd9c1c6e7eb76fd46aa484d4f4a53c83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  healthIni: 3
+  spriteFull1: {fileID: 379396680, guid: 61177c8d29e3e304d820bcf58c4bb5a6, type: 3}
+  spriteMid1: {fileID: -1875182006, guid: 61177c8d29e3e304d820bcf58c4bb5a6, type: 3}
+  spriteLow1: {fileID: -1893138601, guid: 61177c8d29e3e304d820bcf58c4bb5a6, type: 3}
+  spriteFull2: {fileID: -2040604898, guid: 61177c8d29e3e304d820bcf58c4bb5a6, type: 3}
+  spriteMid2: {fileID: 625400402, guid: 61177c8d29e3e304d820bcf58c4bb5a6, type: 3}
+  spriteLow2: {fileID: -1320824877, guid: 61177c8d29e3e304d820bcf58c4bb5a6, type: 3}
+  spriteFull3: {fileID: -2040604898, guid: 61177c8d29e3e304d820bcf58c4bb5a6, type: 3}
+  spriteMid3: {fileID: 625400402, guid: 61177c8d29e3e304d820bcf58c4bb5a6, type: 3}
+  spriteLow3: {fileID: -1320824877, guid: 61177c8d29e3e304d820bcf58c4bb5a6, type: 3}
+  tipoEnemy: 0
+--- !u!58 &2297029792341958904
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -785,42 +810,35 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!114 &6930808142145217631
-MonoBehaviour:
+  m_Radius: 0.49
+--- !u!50 &5291204951590957817
+Rigidbody2D:
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8185017134018563224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd9c1c6e7eb76fd46aa484d4f4a53c83, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 0
-  healthIni: 3
-  spriteFull1: {fileID: 379396680, guid: 61177c8d29e3e304d820bcf58c4bb5a6, type: 3}
-  spriteMid1: {fileID: -1875182006, guid: 61177c8d29e3e304d820bcf58c4bb5a6, type: 3}
-  spriteLow1: {fileID: -1893138601, guid: 61177c8d29e3e304d820bcf58c4bb5a6, type: 3}
-  spriteFull2: {fileID: -2040604898, guid: 61177c8d29e3e304d820bcf58c4bb5a6, type: 3}
-  spriteMid2: {fileID: 625400402, guid: 61177c8d29e3e304d820bcf58c4bb5a6, type: 3}
-  spriteLow2: {fileID: -1320824877, guid: 61177c8d29e3e304d820bcf58c4bb5a6, type: 3}
-  spriteFull3: {fileID: -2040604898, guid: 61177c8d29e3e304d820bcf58c4bb5a6, type: 3}
-  spriteMid3: {fileID: 625400402, guid: 61177c8d29e3e304d820bcf58c4bb5a6, type: 3}
-  spriteLow3: {fileID: -1320824877, guid: 61177c8d29e3e304d820bcf58c4bb5a6, type: 3}
-  tipoEnemy: 0
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &8436968822313581542
 GameObject:
   m_ObjectHideFlags: 0
@@ -897,7 +915,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.9, y: 0.9}
+  m_Size: {x: 0.6, y: 0.6}
   m_EdgeRadius: 0
 --- !u!114 &1528548767735090105
 MonoBehaviour:
@@ -987,7 +1005,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.9, y: 0.9}
+  m_Size: {x: 0.7, y: 0.7}
   m_EdgeRadius: 0
 --- !u!114 &4351277487308962601
 MonoBehaviour:
