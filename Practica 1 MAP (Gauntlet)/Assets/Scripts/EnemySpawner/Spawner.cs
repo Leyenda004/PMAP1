@@ -14,7 +14,7 @@ public class Spawner : MonoBehaviour
     [SerializeField] float enemyRate;
     float nextEnemySpawn = 0;
     [SerializeField] public bool onCollider = false;
-
+    [SerializeField] private int[] enemyRndAmount;
     struct AvilableSpawnPlaces 
     {
 
@@ -33,8 +33,9 @@ public class Spawner : MonoBehaviour
     {
         if (onCollider && Time.time > nextEnemySpawn && enemy != null)
         {
-            TrySpawnEnemy(enemy, 1, 1);//solo se puede llamar una vez por frame.
-            nextEnemySpawn = Time.time + enemyRate;
+            
+            TrySpawnEnemy(enemy, enemyRndAmount[Random.Range(0,10)]);
+            nextEnemySpawn = Time.time + enemyRate*Random.Range(0.9f,1.1f);
         }
     }
     
@@ -44,7 +45,7 @@ public class Spawner : MonoBehaviour
 
 
     //solo se puede llamar una vez por frame
-    private void TrySpawnEnemy(GameObject enemy, int lvl, int amount)
+    private void TrySpawnEnemy(GameObject enemy, int amount)
     {
 
         FindSpawnPlaces(out AvilableSpawnPlaces posPosibleSpawn);

@@ -7,6 +7,7 @@ public class Enemygosht : MonoBehaviour
 {
     float attackRate = 1.5f;
     [SerializeField] int health = 10;
+    [SerializeField] float maxHealthThisEnemyType;
     [SerializeField] float speed;
     [SerializeField] int damage;
 
@@ -22,10 +23,16 @@ public class Enemygosht : MonoBehaviour
     public void Harm(int damage)
     {
         health -= damage;
-        Color c = sr.color;
-        c.a /= 3;  // Divide la opacidad por 3
-        sr.color = c;
+        changeOpacity();
         if (health <= 0) { Destroy(gameObject); }
+    }
+
+    private void changeOpacity()
+    {
+        Color c = sr.color;
+        c.a = health / maxHealthThisEnemyType;  // opacidad = vida/vidaMaxEsteTipoDeEnemigos
+        sr.color = c;
+
     }
 
     // Start is called before the first frame update
@@ -36,6 +43,7 @@ public class Enemygosht : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
+        changeOpacity();
     }
 
     // Update is called once per frame
@@ -67,6 +75,23 @@ public class Enemygosht : MonoBehaviour
             health.Harm(damage);
             Destroy(gameObject);
         }
+        /*
+        else //bugfix enemigos que traspasan muros
+        {
+            Rigidbody rb = collision.gameObject.GetComponent<Rigidbody>();
+
+            // Si el objeto contra el que chocó es estático o kinematic, activar isKinematic
+            if (rb != null && (rb.isKinematic || collision.gameObject.isStatic))
+            {
+                GetComponent<Rigidbody>().isKinematic = true;
+            }
+        }
+        */
     }
 
+    /*private void OnCollisionExit2D(Collision2D collision) //bugfix enemigos que traspasan muros
+    {
+        GetComponent<Rigidbody>().isKinematic = false;
+    }
+    */
 }

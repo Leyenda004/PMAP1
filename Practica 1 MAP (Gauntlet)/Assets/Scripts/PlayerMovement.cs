@@ -1,38 +1,79 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
-using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
+[RequireComponent(typeof(PlayerInput))]
 public class PlayerMovement : MonoBehaviour
 {
-    // [SerializeField] GameObject animatedPlayer;
     private Animator animator;
     [SerializeField] private float playerSpeed = 7; // Variar desde la interfaz de Unity
-    Rigidbody2D rb;
-    bool shooting = false;
-    bool canMove = true;
-    Vector2 dir { get; set; }
-    Vector2 lastDir { get; set; }
+    private Rigidbody2D rb;
+    private bool canMove = true;
+    private Vector2 dir { get; set; }
+    private Vector2 lastDir { get; set; }
+
+    public bool isGamepad { get; private set; }
+    public PlayerControls playerControls;
+    private PlayerInput playerInput;
 
     public Vector2 getLastDir()
     {
         return lastDir;
     }
 
+    private void Awake()
+    {
+        playerControls = new PlayerControls();
+        playerInput = GetComponent<PlayerInput>();
+    }
+
+    private void OnEnable()
+    {
+        playerControls.Enable();
+        InputSystem.onDeviceChange += OnDeviceChange;
+        UpdateControlScheme(); // Detectar el dispositivo actual al inicio
+    }
+
+    private void OnDisable()
+    {
+        playerControls.Disable();
+        InputSystem.onDeviceChange -= OnDeviceChange;
+    }
+
     void Start()
     {
+        playerInput.neverAutoSwitchControlSchemes = false;
         rb = GetComponent<Rigidbody2D>();
         dir = lastDir = Vector2.zero;
-        //animator = animatedPlayer.GetComponent<Animator>();
         animator = GetComponentInChildren<Animator>();
     }
-    void Update()
+
+    private void OnDeviceChange(InputDevice device, InputDeviceChange change)
     {
-        if (canMove && !shooting)
-        { 
-        dir = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        rb.velocity = dir * playerSpeed;
+        UpdateControlScheme();
+    }
+
+    private void UpdateControlScheme()
+    {
+        isGamepad = playerInput.currentControlScheme == "Gamepad";
+        // Debug.Log($"Cambio de control detectado: {(isGamepad ? "Gamepad" : "Teclado/Ratón")}");
+    }
+
+void Update()
+    {
+        if (canMove)
+        {
+            //isGamepad = playerInput.currentControlScheme.Equals("Gamepad");
+            dir = playerControls.Controles.Movimiento.ReadValue<Vector2>();
+            //dir = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+            
+
+            if (Mathf.Abs(dir.x) < 0.25) { dir = new Vector2(0, dir.y); }
+            if (Mathf.Abs(dir.y) < 0.25) { dir = new Vector2(dir.x, 0); }
+            // Debug.Log(dir);
+
+            rb.velocity = dir * playerSpeed;
         }
         float magnitud = dir.magnitude;
         //establece la última dirección en la que se movió el jugador (distinta de 0)

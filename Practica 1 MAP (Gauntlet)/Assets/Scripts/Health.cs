@@ -34,9 +34,19 @@ public class Health : MonoBehaviour
         if (health <= 0)
         {
             health = 0;
+            GameManager.Instance.Death();
+            /*
             Time.timeScale = 1;
             SceneManager.LoadScene(0);
-            
+            */
+        }
+
+        if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift))
+        {
+            if (gameManager.player != null)
+            {
+                Heal(750);
+            }
         }
     }
 

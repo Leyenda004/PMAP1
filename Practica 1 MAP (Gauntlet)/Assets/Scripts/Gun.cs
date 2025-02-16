@@ -13,16 +13,17 @@ public class Gun : MonoBehaviour
     [SerializeField] Bullet ValkbulletPrefab;
     [SerializeField] Bullet ElfbulletPrefab;
     Bullet FinalbulletPrefab;
-    [SerializeField] float fireRate = 0.05f;
-    [SerializeField] float bulletSpeed = 15f;
+    Bullet newBullet;
+    private float nextFireTime;
+    [SerializeField] private float fireRate = 0.2f;
+    [SerializeField] private float bulletSpeed = 15f;
     [SerializeField] AudioClip throwvfx;
     bool canShoot = true;
     // Start is called before the first frame update
     void Start()
     {
         parent = transform.parent.gameObject;
-
-       
+        nextFireTime = Time.time;
     }
     public void bulletSkin(bool isValkChosen)
     {
@@ -33,29 +34,29 @@ public class Gun : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.DrawLine(firePoint, firePoint + Vector2.up * 0.1f, Color.red, 0.1f);
+        Debug.DrawLine(firePoint, firePoint + Vector2.up * 10f, Color.red, 0.1f);
 
-        if (Input.GetButtonDown("Fire1"))
+        //puede disparar manteniendo pulsado
+        if (Input.GetButton("Fire1")&& nextFireTime<=Time.time)
         {
             Shoot();
+            nextFireTime = Time.time + fireRate;
         }
     }
 
-    float nextFireTime;
-    void Shoot(){
+    
+    public void Shoot(){
         if (GameManager.Instance.canShoot)
         {
             ControladorSonido.Instance.ReproducirSonido(throwvfx);
             Vector2 lastDir = parent.GetComponent<PlayerMovement>().getLastDir();
             Quaternion angulito = Quaternion.LookRotation(Vector3.forward, lastDir);
-            firePoint = (Vector2)parent.transform.position + lastDir/lastDir.magnitude;
+            firePoint = (Vector2)parent.transform.position;
 
+            newBullet = Instantiate(FinalbulletPrefab, firePoint, Quaternion.LookRotation(Vector3.forward, lastDir));
             GameManager.Instance.canShoot = false;
-            Bullet newBullet = Instantiate(FinalbulletPrefab, firePoint, Quaternion.LookRotation(Vector3.forward, lastDir));
-            
             newBullet.Init(bulletSpeed);
-            
-           
         }
+        
     }
 }

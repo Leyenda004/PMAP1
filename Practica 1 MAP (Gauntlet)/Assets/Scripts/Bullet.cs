@@ -20,7 +20,6 @@ public class Bullet : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-
         if (other.gameObject.tag == "Enemy")
         {
             GameManager.Instance.OnEnemyHarmed();
@@ -33,11 +32,13 @@ public class Bullet : MonoBehaviour
                 other.gameObject.GetComponent<Enemy2>().Harm(bulletDamage);
             //Debug.Log("Enemy Health: " + other.gameObject.GetComponent<Enemy>().getHealth());
         }
-        if (other.gameObject.GetComponent<spawnerHealth>() != null){
+        else if (other.gameObject.GetComponent<spawnerHealth>() != null){
             Debug.Log("Auch");
             other.gameObject.GetComponent<spawnerHealth>().SpawnerHarm();
         }
+
         GameManager.Instance.canShoot = true;
+        Debug.Log("Bullet destroyed");
         Destroy(gameObject);
     }
 }
