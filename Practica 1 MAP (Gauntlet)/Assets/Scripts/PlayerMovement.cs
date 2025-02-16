@@ -57,7 +57,7 @@ public class PlayerMovement : MonoBehaviour
     private void UpdateControlScheme()
     {
         isGamepad = playerInput.currentControlScheme == "Gamepad";
-        Debug.Log($"Cambio de control detectado: {(isGamepad ? "Gamepad" : "Teclado/Ratón")}");
+        // Debug.Log($"Cambio de control detectado: {(isGamepad ? "Gamepad" : "Teclado/Ratón")}");
     }
 
 void Update()
@@ -71,7 +71,7 @@ void Update()
 
             if (Mathf.Abs(dir.x) < 0.25) { dir = new Vector2(0, dir.y); }
             if (Mathf.Abs(dir.y) < 0.25) { dir = new Vector2(dir.x, 0); }
-            Debug.Log(dir);
+            // Debug.Log(dir);
 
             rb.velocity = dir * playerSpeed;
         }

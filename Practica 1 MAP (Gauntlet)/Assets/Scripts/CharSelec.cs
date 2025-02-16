@@ -25,7 +25,7 @@ public class CharSelec : MonoBehaviour
         
 
         GOSelector = GameObject.FindGameObjectWithTag("CharSelection");
-        EventSystem.current.SetSelectedGameObject(GetComponentsInChildren<Button>()[random.Next(0, 1)].gameObject); //mi mejor creación hasta la fecha
+        EventSystem.current.SetSelectedGameObject(GetComponentsInChildren<Button>()[random.Next(0, 2)].gameObject); //mi mejor creación hasta la fecha
         /*if (GetComponentsInChildren<Button>()[0].gameObject != null)
         {
             ElfArrow.gameObject.SetActive(true);
