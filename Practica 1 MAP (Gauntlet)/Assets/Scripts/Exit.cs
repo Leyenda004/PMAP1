@@ -7,11 +7,16 @@ public class Exit : MonoBehaviour
 {
     [SerializeField] private GameObject player;
     private Animator animator;
+    private Sprite valkyrieSprite;
+    private Sprite elfSprite;
     [SerializeField] AudioClip exit;
 
     void Start()
     {
         animator = player.GetComponentInChildren<Animator>();
+
+        valkyrieSprite = Resources.Load<Sprite>("Sprites/Valkyrie_sprites_12");
+        elfSprite = Resources.Load<Sprite>("Sprites/Elf_sprites_12");
     }
     private void OnTriggerEnter2D(Collider2D collision) // Trigger evita que el jugador se choque con el interactuable
     {
@@ -24,6 +29,31 @@ public class Exit : MonoBehaviour
             playerMovement.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             playerMovement.DisableMovement();
 
+            Transform playerSpriteTransform = player.transform.Find("Player_sprite");
+            if (playerSpriteTransform != null)
+            {
+                SpriteRenderer spriteRenderer = playerSpriteTransform.GetComponent<SpriteRenderer>();
+                if (spriteRenderer != null)
+                {
+                    // Usar la variable IsValkchosen del GameManager
+                    if (GameManager.Instance.IsValkchosen)
+                    {
+                        spriteRenderer.sprite = valkyrieSprite;
+                    }
+                    else
+                    {
+                        spriteRenderer.sprite = elfSprite;
+                    }
+                }
+                else
+                {
+                    Debug.LogError("SpriteRenderer no encontrado en el GameObject Player_sprite.");
+                }
+            }
+            else
+            {
+                Debug.LogError("Player_sprite no encontrado en los hijos del GameObject player.");
+            }
             StartCoroutine(ExitDelay());
         }
         else
