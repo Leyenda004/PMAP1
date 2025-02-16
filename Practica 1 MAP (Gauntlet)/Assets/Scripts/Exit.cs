@@ -14,7 +14,6 @@ public class Exit : MonoBehaviour
     void Start()
     {
         animator = player.GetComponentInChildren<Animator>();
-
         valkyrieSprite = Resources.Load<Sprite>("Sprites/Valkyrie_sprites_12");
         elfSprite = Resources.Load<Sprite>("Sprites/Elf_sprites_12");
     }
@@ -28,32 +27,24 @@ public class Exit : MonoBehaviour
 
             playerMovement.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             playerMovement.DisableMovement();
-
-            Transform playerSpriteTransform = player.transform.Find("Player_sprite");
-            if (playerSpriteTransform != null)
+            // Verificar y actualizar el sprite del jugador según el personaje seleccionado
+            SpriteRenderer spriteRenderer = collision.gameObject.GetComponentInChildren<SpriteRenderer>();
+            if (spriteRenderer != null)
             {
-                SpriteRenderer spriteRenderer = playerSpriteTransform.GetComponent<SpriteRenderer>();
-                if (spriteRenderer != null)
+                if (GameManager.Instance.IsValkchosen)
                 {
-                    // Usar la variable IsValkchosen del GameManager
-                    if (GameManager.Instance.IsValkchosen)
-                    {
-                        spriteRenderer.sprite = valkyrieSprite;
-                    }
-                    else
-                    {
-                        spriteRenderer.sprite = elfSprite;
-                    }
+                    spriteRenderer.sprite = valkyrieSprite;
                 }
                 else
                 {
-                    Debug.LogError("SpriteRenderer no encontrado en el GameObject Player_sprite.");
+                    spriteRenderer.sprite = elfSprite;
                 }
             }
             else
             {
-                Debug.LogError("Player_sprite no encontrado en los hijos del GameObject player.");
+                Debug.LogError("SpriteRenderer no encontrado en el GameObject del jugador.");
             }
+
             StartCoroutine(ExitDelay());
         }
         else
