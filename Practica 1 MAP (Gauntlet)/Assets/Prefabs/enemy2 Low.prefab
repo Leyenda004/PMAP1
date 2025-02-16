@@ -160,22 +160,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &3786016312657122072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4507022976611023191}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fff854f35b3d1c47a65e5c4187330b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 5
-  maxHealthThisEnemyType: 15
-  speed: 3
-  damage: 100
 --- !u!95 &5767509427241103401
 Animator:
   serializedVersion: 5
@@ -209,7 +193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc2e047a8daef8b43aae40bb38928f0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
-  speed: 0
-  damage: 0
-  cooldown: 0
+  health: 5
+  speed: 5
+  damage: 8
+  cooldown: 2
