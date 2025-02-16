@@ -62,9 +62,7 @@ public class GameManager : MonoBehaviour
         ui = uiscript;
         player = jugador;
         GameObject GOSelector = GameObject.FindGameObjectWithTag("CharSelection");
-        GameObject InputSelector = GameObject.FindGameObjectWithTag("InputSelector");
         IsValkchosen = GOSelector.name == "valkyrie";
-        player.GetComponent<PlayerMovement>().isGamepad = InputSelector.name == "Gamepad";
         Debug.Log(IsValkchosen);
         player.GetComponentInChildren<Animator>().SetBool("IsValkChosen", IsValkchosen);
         player.GetComponentInChildren<Gun>().bulletSkin(IsValkchosen);

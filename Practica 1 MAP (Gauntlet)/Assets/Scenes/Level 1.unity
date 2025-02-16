@@ -3377,11 +3377,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-<<<<<<< Updated upstream
   m_LocalPosition: {x: 8.29698, y: -11.5, z: -10}
-=======
-  m_LocalPosition: {x: 8.29821, y: -11.5, z: -10}
->>>>>>> Stashed changes
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -20612,7 +20608,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerSpeed: 7
-  isGamepad: 0
 --- !u!114 &1018625664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20678,7 +20673,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1018625658}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
@@ -20712,10 +20707,6 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 84ee5b85-23ca-4867-a624-43172b03605d
     m_ActionName: Controles/Movimiento[/XInputControllerWindows/leftStick,/XInputControllerWindows/dpad,/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: a27ca5f8-ba88-4897-acc4-eadd5fe92d78
-    m_ActionName: Controles/Disparo[/Keyboard/space]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Controles
