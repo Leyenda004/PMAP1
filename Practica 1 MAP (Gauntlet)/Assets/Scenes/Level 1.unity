@@ -27736,6 +27736,18 @@ PrefabInstance:
       propertyPath: tipoEnemy
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6930808142145217631, guid: 878dcd0a40e86054e90ba32105f299e0, type: 3}
+      propertyPath: spriteLow1
+      value: 
+      objectReference: {fileID: 118339719, guid: 61177c8d29e3e304d820bcf58c4bb5a6, type: 3}
+    - target: {fileID: 6930808142145217631, guid: 878dcd0a40e86054e90ba32105f299e0, type: 3}
+      propertyPath: spriteMid1
+      value: 
+      objectReference: {fileID: 51218847, guid: 61177c8d29e3e304d820bcf58c4bb5a6, type: 3}
+    - target: {fileID: 6930808142145217631, guid: 878dcd0a40e86054e90ba32105f299e0, type: 3}
+      propertyPath: spriteFull1
+      value: 
+      objectReference: {fileID: -1505297255, guid: 61177c8d29e3e304d820bcf58c4bb5a6, type: 3}
     - target: {fileID: 7077607634747457326, guid: 878dcd0a40e86054e90ba32105f299e0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.500783
@@ -27776,6 +27788,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7621775236155138270, guid: 878dcd0a40e86054e90ba32105f299e0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1505297255, guid: 61177c8d29e3e304d820bcf58c4bb5a6, type: 3}
     - target: {fileID: 8185017134018563224, guid: 878dcd0a40e86054e90ba32105f299e0, type: 3}
       propertyPath: m_Name
       value: Spawner
