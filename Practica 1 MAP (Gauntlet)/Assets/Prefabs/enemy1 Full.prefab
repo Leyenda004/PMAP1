@@ -196,4 +196,4 @@ MonoBehaviour:
   health: 15
   maxHealthThisEnemyType: 15
   speed: 4
-  damage: 20
+  damage: 8
