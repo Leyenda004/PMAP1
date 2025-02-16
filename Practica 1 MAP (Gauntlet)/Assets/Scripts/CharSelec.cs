@@ -25,27 +25,13 @@ public class CharSelec : MonoBehaviour
         
 
         GOSelector = GameObject.FindGameObjectWithTag("CharSelection");
-        EventSystem.current.SetSelectedGameObject(GetComponentsInChildren<Button>()[random.Next(0, 2)].gameObject); //mi mejor creación hasta la fecha
-        /*if (GetComponentsInChildren<Button>()[0].gameObject != null)
-        {
-            ElfArrow.gameObject.SetActive(true);
-            ValkyrieArrow.gameObject.SetActive(false);
-        }
-        else
-        {
-            ElfArrow.gameObject.SetActive(false);
-            ValkyrieArrow.gameObject.SetActive(true);
-        }*/
-
-
-
         DontDestroyOnLoad(GOSelector);
     }
 
     public void CharSelection(string choice)
     {
         GOSelector.name = choice;
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(3);
 
    
     }
