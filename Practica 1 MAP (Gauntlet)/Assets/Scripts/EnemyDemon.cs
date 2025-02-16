@@ -52,7 +52,7 @@ public class EnemyDemon : MonoBehaviour
                 if (attackTimer <= 0f)
                 {
                     Debug.Log("EnemyDemon Shoot()");
-                    GetComponentInChildren<DemonGun>().Shoot(direction);
+                    GetComponentInChildren<DemonGun>().Shoot(direction, gameObject.transform.position);
                     attackTimer = attackRate;
                 }
                 attackTimer -= Time.fixedDeltaTime;
