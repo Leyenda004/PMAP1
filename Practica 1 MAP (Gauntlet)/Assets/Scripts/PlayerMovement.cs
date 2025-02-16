@@ -7,7 +7,7 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     private Animator animator;
-    [SerializeField] private float playerSpeed = 7; // Variar desde la interfaz de Unity
+    [SerializeField] private float playerSpeed = 7f; // Variar desde la interfaz de Unity
     private Rigidbody2D rb;
     private bool canMove = true;
     private Vector2 dir { get; set; }
@@ -26,6 +26,7 @@ public class PlayerMovement : MonoBehaviour
     {
         playerControls = new PlayerControls();
         playerInput = GetComponent<PlayerInput>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     private void OnEnable()
@@ -60,8 +61,10 @@ public class PlayerMovement : MonoBehaviour
         // Debug.Log($"Cambio de control detectado: {(isGamepad ? "Gamepad" : "Teclado/Ratón")}");
     }
 
-void Update()
+    void Update()
     {
+      
+
         if (canMove)
         {
             //isGamepad = playerInput.currentControlScheme.Equals("Gamepad");
@@ -84,70 +87,6 @@ void Update()
         animator.SetFloat("LastVerti", lastDir.y);
         animator.SetFloat("magnitude", magnitud);
         animator.speed = magnitud;
-
-        //if (dir.x > 0 && dir.y > 0)
-        //{
-        //    animator.SetBool("Walk_Up", true);
-        //    animator.SetBool("Walk_Down", false);
-        //    animator.SetBool("Walk_Left", false);
-        //    animator.SetBool("Walk_Right", false);
-        //}
-        //else if (dir.x < 0 && dir.y > 0)
-        //{
-        //    animator.SetBool("Walk_Up", true);
-        //    animator.SetBool("Walk_Down", false);
-        //    animator.SetBool("Walk_Left", false);
-        //    animator.SetBool("Walk_Right", false);
-        //}
-        //else if (dir.x > 0 && dir.y < 0)
-        //{
-        //    animator.SetBool("Walk_Down", true);
-        //    animator.SetBool("Walk_Up", false);
-        //    animator.SetBool("Walk_Left", false);
-        //    animator.SetBool("Walk_Right", false);
-        //}
-        //else if (dir.x < 0 && dir.y < 0)
-        //{
-        //    animator.SetBool("Walk_Down", true);
-        //    animator.SetBool("Walk_Up", false);
-        //    animator.SetBool("Walk_Left", false);
-        //    animator.SetBool("Walk_Right", false);
-        //}
-        //else if (dir.x > 0)
-        //{
-        //    animator.SetBool("Walk_Right", true);
-        //    animator.SetBool("Walk_Up", false);
-        //    animator.SetBool("Walk_Down", false);
-        //    animator.SetBool("Walk_Left", false);
-        //}
-        //else if (dir.x < 0)
-        //{
-        //    animator.SetBool("Walk_Left", true);
-        //    animator.SetBool("Walk_Up", false);
-        //    animator.SetBool("Walk_Down", false);
-        //    animator.SetBool("Walk_Right", false);
-        //}
-        //else if (dir.y > 0)
-        //{
-        //    animator.SetBool("Walk_Up", true);
-        //    animator.SetBool("Walk_Down", false);
-        //    animator.SetBool("Walk_Left", false);
-        //    animator.SetBool("Walk_Right", false);
-        //}
-        //else if (dir.y < 0)
-        //{
-        //    animator.SetBool("Walk_Down", true);
-        //    animator.SetBool("Walk_Up", false);
-        //    animator.SetBool("Walk_Left", false);
-        //    animator.SetBool("Walk_Right", false);
-        //}
-        //else
-        //{
-        //    animator.SetBool("Walk_Up", false);
-        //    animator.SetBool("Walk_Down", false);
-        //    animator.SetBool("Walk_Left", false);
-        //    animator.SetBool("Walk_Right", false);
-        //}
     }
     public void DisableMovement()
     {
@@ -159,5 +98,7 @@ void Update()
     {
         canMove = true;
     }
+
+ 
 
 }
