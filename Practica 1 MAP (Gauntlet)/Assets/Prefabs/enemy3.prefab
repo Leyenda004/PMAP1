@@ -171,7 +171,7 @@ Animator:
   m_GameObject: {fileID: 4507022976611023191}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c6c5ca07f8f1a4341b159af6b2346ec4, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -194,8 +194,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ffb78a9bd789004181f937859e31d48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 0
   health: 15
   speed: 3
+  cooldown: 0
 --- !u!1 &6164006744376257277
 GameObject:
   m_ObjectHideFlags: 0
@@ -243,4 +245,3 @@ MonoBehaviour:
   bullet: {fileID: 8467599445355505162, guid: ed62e997876109f45bb217893e736b80, type: 3}
   fireRate: 0.5
   bulletSpeed: 15
-  throwvfx: {fileID: 8300000, guid: fcfe7f646fb95b64db40141c369d6e8b, type: 3}

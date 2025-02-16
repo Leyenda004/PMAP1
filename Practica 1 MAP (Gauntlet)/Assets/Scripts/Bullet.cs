@@ -30,6 +30,8 @@ public class Bullet : MonoBehaviour
                 other.gameObject.GetComponent<Enemygosht>().Harm(bulletDamage);
             if (other.gameObject.GetComponent<Enemy2>() != null)
                 other.gameObject.GetComponent<Enemy2>().Harm(bulletDamage);
+            if (other.gameObject.GetComponent<EnemyDemon>() != null)
+                other.gameObject.GetComponent<EnemyDemon>().Harm(bulletDamage);
             //Debug.Log("Enemy Health: " + other.gameObject.GetComponent<Enemy>().getHealth());
         }
         else if (other.gameObject.GetComponent<spawnerHealth>() != null){

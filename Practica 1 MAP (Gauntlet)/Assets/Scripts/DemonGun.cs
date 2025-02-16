@@ -12,10 +12,17 @@ public class DemonGun : MonoBehaviour
     [SerializeField] float fireRate = 0.5f;
     [SerializeField] float bulletSpeed = 15f;
 
-    public void Shoot(Vector2 dir, Vector2 origin){
+    public void Shoot(Vector2 dir, Vector2 origin)
+    {
         newBullet = Instantiate(bullet, origin, Quaternion.identity);
-        newBullet.GetComponent<Rigidbody2D>().velocity = dir * bulletSpeed;
-        newBullet.Init(bulletSpeed);
+
+        float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+        newBullet.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle - 90));
+
+        newBullet.Init(dir, bulletSpeed); // Ahora pasamos la dirección correcta
+
         Debug.Log("DemonGun Shoot");
     }
+
+
 }

@@ -41,7 +41,7 @@ public class Health : MonoBehaviour
             */
         }
 
-        if (Input.GetKeyDown(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift))
         {
             if (gameManager.player != null)
             {
