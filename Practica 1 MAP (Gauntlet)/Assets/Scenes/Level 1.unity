@@ -411,15 +411,15 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 50e64b29a7c6ddb48a2a0a2b9d8fa30f, type: 3}
     - target: {fileID: 660932347576997675, guid: a4bf8c1c3ea8afe4887fb3920a68ed3f, type: 3}
       propertyPath: m_Colors.m_PressedColor.b
-      value: 0.509434
+      value: 0.3372549
       objectReference: {fileID: 0}
     - target: {fileID: 660932347576997675, guid: a4bf8c1c3ea8afe4887fb3920a68ed3f, type: 3}
       propertyPath: m_Colors.m_PressedColor.g
-      value: 0.509434
+      value: 0.3372549
       objectReference: {fileID: 0}
     - target: {fileID: 660932347576997675, guid: a4bf8c1c3ea8afe4887fb3920a68ed3f, type: 3}
       propertyPath: m_Colors.m_PressedColor.r
-      value: 0.509434
+      value: 0.34117648
       objectReference: {fileID: 0}
     - target: {fileID: 660932347576997675, guid: a4bf8c1c3ea8afe4887fb3920a68ed3f, type: 3}
       propertyPath: m_Colors.m_DisabledColor.b
@@ -459,15 +459,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 967790000148152900, guid: a4bf8c1c3ea8afe4887fb3920a68ed3f, type: 3}
       propertyPath: m_Colors.m_PressedColor.b
-      value: 0.509434
+      value: 0.33802062
       objectReference: {fileID: 0}
     - target: {fileID: 967790000148152900, guid: a4bf8c1c3ea8afe4887fb3920a68ed3f, type: 3}
       propertyPath: m_Colors.m_PressedColor.g
-      value: 0.509434
+      value: 0.33802062
       objectReference: {fileID: 0}
     - target: {fileID: 967790000148152900, guid: a4bf8c1c3ea8afe4887fb3920a68ed3f, type: 3}
       propertyPath: m_Colors.m_PressedColor.r
-      value: 0.509434
+      value: 0.33962262
       objectReference: {fileID: 0}
     - target: {fileID: 967790000148152900, guid: a4bf8c1c3ea8afe4887fb3920a68ed3f, type: 3}
       propertyPath: m_Colors.m_DisabledColor.b
@@ -603,15 +603,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8655425605259702733, guid: a4bf8c1c3ea8afe4887fb3920a68ed3f, type: 3}
       propertyPath: m_Colors.m_PressedColor.b
-      value: 0.509434
+      value: 0.3372549
       objectReference: {fileID: 0}
     - target: {fileID: 8655425605259702733, guid: a4bf8c1c3ea8afe4887fb3920a68ed3f, type: 3}
       propertyPath: m_Colors.m_PressedColor.g
-      value: 0.509434
+      value: 0.3372549
       objectReference: {fileID: 0}
     - target: {fileID: 8655425605259702733, guid: a4bf8c1c3ea8afe4887fb3920a68ed3f, type: 3}
       propertyPath: m_Colors.m_PressedColor.r
-      value: 0.509434
+      value: 0.34117648
       objectReference: {fileID: 0}
     - target: {fileID: 8655425605259702733, guid: a4bf8c1c3ea8afe4887fb3920a68ed3f, type: 3}
       propertyPath: m_Colors.m_DisabledColor.b
@@ -3377,7 +3377,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.29698, y: -11.5, z: -10}
+  m_LocalPosition: {x: 8.29821, y: -11.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -20523,7 +20523,7 @@ PrefabInstance:
       objectReference: {fileID: 3985025988747078589, guid: 85e2e60771b3d9a428bee7dffa0aac81, type: 3}
     - target: {fileID: 8283783816409613421, guid: 878dcd0a40e86054e90ba32105f299e0, type: 3}
       propertyPath: enemyRate
-      value: 2
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20608,6 +20608,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerSpeed: 7
+  isGamepad: 0
 --- !u!114 &1018625664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22770,7 +22771,7 @@ PrefabInstance:
       objectReference: {fileID: 3985025988747078589, guid: 7f5af2db9c06ed04e93495b59233326c, type: 3}
     - target: {fileID: 8283783816409613421, guid: 878dcd0a40e86054e90ba32105f299e0, type: 3}
       propertyPath: enemyRate
-      value: 2
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8283783816409613421, guid: 878dcd0a40e86054e90ba32105f299e0, type: 3}
       propertyPath: ColScripts.Array.size
@@ -23454,7 +23455,7 @@ PrefabInstance:
       objectReference: {fileID: 3985025988747078589, guid: 85e2e60771b3d9a428bee7dffa0aac81, type: 3}
     - target: {fileID: 8283783816409613421, guid: 878dcd0a40e86054e90ba32105f299e0, type: 3}
       propertyPath: enemyRate
-      value: 2
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26213,7 +26214,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7077607634747457326, guid: 878dcd0a40e86054e90ba32105f299e0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -12.499999
+      value: -12.79
       objectReference: {fileID: 0}
     - target: {fileID: 7077607634747457326, guid: 878dcd0a40e86054e90ba32105f299e0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -26281,7 +26282,7 @@ PrefabInstance:
       objectReference: {fileID: 4507022976611023191, guid: a51a842abcf39634a95fe3a5210fcd22, type: 3}
     - target: {fileID: 8283783816409613421, guid: 878dcd0a40e86054e90ba32105f299e0, type: 3}
       propertyPath: enemyRate
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26869,6 +26870,7 @@ MonoBehaviour:
   score: 0
   keyAmmount: 0
   firstKey: 0
+  firstHarm: 0
   firstTrap: 0
   canShoot: 1
   IsValkchosen: 0
@@ -27745,7 +27747,7 @@ PrefabInstance:
       objectReference: {fileID: 3985025988747078589, guid: 7f5af2db9c06ed04e93495b59233326c, type: 3}
     - target: {fileID: 8283783816409613421, guid: 878dcd0a40e86054e90ba32105f299e0, type: 3}
       propertyPath: enemyRate
-      value: 2
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8283783816409613421, guid: 878dcd0a40e86054e90ba32105f299e0, type: 3}
       propertyPath: onCollider
