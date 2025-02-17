@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public int score;
     public int keyAmmount = 0;
     public bool firstKey;
+    public bool firstHarm;
     public bool firstTrap;
     public bool canShoot = true;
     private static GameManager instance;
@@ -57,6 +58,7 @@ public class GameManager : MonoBehaviour
         score = 0;
         keyAmmount = 0;
         firstKey = true;
+        firstHarm = true;
         firstTrap = true;
         canShoot = true;
         ui = uiscript;

@@ -73,14 +73,20 @@ public class Enemygosht : MonoBehaviour
         {
             Health health = collision.gameObject.GetComponent<Health>();
             health.Harm(damage);
+            if (GameManager.Instance.firstHarm)
+            {
+                GameManager.Instance.CallTutorial("SHOOT OR AVOID GHOSTS PLAYER LOSES 9 HEALTH");
+                GameManager.Instance.firstHarm = false;
+            }
             Destroy(gameObject);
+            
         }
         /*
         else //bugfix enemigos que traspasan muros
         {
             Rigidbody rb = collision.gameObject.GetComponent<Rigidbody>();
 
-            // Si el objeto contra el que chocó es estático o kinematic, activar isKinematic
+            // Si el objeto contra el que chocï¿½ es estï¿½tico o kinematic, activar isKinematic
             if (rb != null && (rb.isKinematic || collision.gameObject.isStatic))
             {
                 GetComponent<Rigidbody>().isKinematic = true;
